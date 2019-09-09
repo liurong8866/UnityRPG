@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: missile_spin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.48949099, y: 1.66312218, z: -1.7661407}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd845ad228b2c474aa2e39cab6f6ea45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationName: special_fan
+  MaxInvestLevel: 10
+  Range: 20
+  Speed: 1.29999995
+  CooldownMS: 6000
+  Allow_Turning: 0
+  Level_Required: 0
+  ManaCost: 0
+  WeaponDamagePCT: 75
+  EventStartParticle: {fileID: 0}
+  StartOffset: {x: 0, y: 0, z: 0}
+  AttachOwner: 0
+  EventStartParticle2: {fileID: 0}
+  AppearTime: .25999999
+  EventTriggerParticle: {fileID: 0}
+  TriggerOffset: {x: 0, y: 0, z: 0}
+  HasDamageShape: 0
+  DamageShapeRadius: 3
+  ForwardMove: 6
+  MoveTime: .135000005
+  KnockBackEffect: 0
+  Chance: 85
+  Direction: 0
+  InitAngle: 15
+  AngleOffset: 360
+  MissileOffset: {x: 0, y: 1.10000002, z: 0}
+  Count: 16
+  Duration: .5
+  Order: 0
+  Missile: {fileID: 11400000, guid: c5cc3b3f5d28a4e898913763208c547a, type: 2}
+  TurnToTarget: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

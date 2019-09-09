@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: WATER_Base
+  m_Shader: {fileID: 4800000, guid: 4841d59128dda4637a9150b29f6b21f2, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 1cf027bc389d440b6a46a9f05ceae3a4, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _AnimTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4cab323596e314d6e951d320f8b024b8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Freq_X
+        second: .0700000003
+      data:
+        first:
+          name: _Amplitude_X
+        second: -.200000003
+      data:
+        first:
+          name: _Freq_Y
+        second: .0599999987
+      data:
+        first:
+          name: _Amplitude_Y
+        second: -.239999995
+      data:
+        first:
+          name: _Freq_X1
+        second: .0199999996
+      data:
+        first:
+          name: _Amplitude_X1
+        second: .0500000007
+      data:
+        first:
+          name: _Freq_Y1
+        second: .0199999996
+      data:
+        first:
+          name: _Amplitude_Y1
+        second: .0500000007
+      data:
+        first:
+          name: _rotate
+        second: 45
+      data:
+        first:
+          name: _scaleX
+        second: 1
+      data:
+        first:
+          name: _scaleY
+        second: 1
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .588, g: .588, b: .588, a: 1}

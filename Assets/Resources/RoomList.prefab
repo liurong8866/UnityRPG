@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &144778
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 444778}
+  - 114: {fileID: 11444778}
+  m_Layer: 0
+  m_Name: RoomList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &444778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11444778
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b40ce71a8a514e8fb618c9df8d1b202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  typeParts:
+  - type: mine
+    parts:
+    - {fileID: 100000, guid: 9db961b124cde4fc68ffac54091a4738, type: 2}
+    - {fileID: 100000, guid: 1af9594594ace4c388ec63028f8a9d2b, type: 2}
+    - {fileID: 100000, guid: dcb20e55bda9e457eba5d562432a568a, type: 2}
+    - {fileID: 154480, guid: fc135f778b56a41b4b938718cacfe8cc, type: 2}
+    - {fileID: 140522, guid: f5a5d66ff16a649929bbda8fe5385539, type: 2}
+    - {fileID: 100000, guid: c7440f87c544d4f458e54b7c0e6024a2, type: 2}
+    - {fileID: 100000, guid: 44ef5491b2b524969a292e94b3cbbd0f, type: 2}
+    - {fileID: 100000, guid: e974816f69931441d843bbf3086212a1, type: 2}
+    - {fileID: 100000, guid: 53f151d572e984b8dba2f3f8564fef90, type: 2}
+    - {fileID: 111434, guid: 0c6c337941be64658b34102384166318, type: 2}
+    - {fileID: 170052, guid: 4195d9c815df54bf69850392a6f30bfa, type: 2}
+    - {fileID: 100000, guid: 81d42f05cf653454c9dd351ccff0c362, type: 2}
+    - {fileID: 100000, guid: c000e2ae7464b421c9b5ee572bfc73bf, type: 2}
+    - {fileID: 100000, guid: d314e15343e164ba18d2bfb4339e4995, type: 2}
+    - {fileID: 156034, guid: 2be5fd3575134466296a663870cc4ede, type: 2}
+    - {fileID: 100000, guid: 2d5858341215e4906bb1d8690ea7465e, type: 2}
+    - {fileID: 100000, guid: 9e095da1ebeb24f34b887dfcceae95de, type: 2}
+    - {fileID: 100000, guid: 790d3a5ed81fb404caf3cc7d139f2ebd, type: 2}
+    - {fileID: 100000, guid: 9b6da3ec07b5c4aafb3fce8b9263c199, type: 2}
+    - {fileID: 100000, guid: 273c8561f21ff4be8ae0d9f2689c99ed, type: 2}
+    - {fileID: 100000, guid: 8133031ffd95c4610b52da6484509ce7, type: 2}
+    - {fileID: 100000, guid: cda36eb5df89c4908ad44cfbf08afd30, type: 2}
+    - {fileID: 145618, guid: 54c7e88364f1d4e1388bbdf42323fe97, type: 2}
+    - {fileID: 100000, guid: 1b4db632985534074b1b8f9d21ee3a23, type: 2}
+    - {fileID: 172988, guid: 97ec20e742f9c4b4f94ef88bcd72d763, type: 2}
+  - type: MainMenus
+    parts:
+    - {fileID: 152996, guid: 71e6b177e40084bd78834d207c6cf939, type: 2}
+    - {fileID: 115340, guid: 11c85501e022e4612bdb1653e6b0e39d, type: 2}
+  - type: lava
+    parts:
+    - {fileID: 154274, guid: 8e678fd39cd4c4341a41c1cd51cd3788, type: 2}
+    - {fileID: 198480, guid: 471d5b1fbd5cd47379c784b6f93c5b92, type: 2}
+    - {fileID: 171456, guid: b5eee892235bb4d24915bf1dd944685d, type: 2}
+  - type: snow
+    parts: []
+  - type: suntemple
+    parts:
+    - {fileID: 172638, guid: 43926b90e4a20495291e68f34549cd1e, type: 2}
+    - {fileID: 120172, guid: f75a77a0a71a64d589a2a1558257c4bc, type: 2}
+    - {fileID: 104262, guid: 244c1388056d74bea969807abb83c6bc, type: 2}
+    - {fileID: 147218, guid: 61e926d49df1548a8a2ffc5f670fdd2b, type: 2}
+    - {fileID: 130852, guid: fdc9d51e5caeb494593a8700e534abbe, type: 2}
+    - {fileID: 188714, guid: 7e485da039d034a18b2e48be2e0a2548, type: 2}
+    - {fileID: 117488, guid: 9c3bd64ddd52344fe942af7d7e6b3355, type: 2}
+    - {fileID: 186374, guid: ab9ae8ef961a44de383719db15af4dc8, type: 2}
+    - {fileID: 116974, guid: 2aa1d0357bab348f796ab42993d7735a, type: 2}
+    - {fileID: 187970, guid: 4865a60ce6cdd4a279e6e836988fdc2a, type: 2}
+    - {fileID: 158768, guid: 936eb0543d04e4bd5879d41122a4b159, type: 2}
+    - {fileID: 188550, guid: ba3eea2d937384b8e8a1084a1682fe07, type: 2}
+    - {fileID: 182320, guid: da12026ebc3344cafae72a93dd462df0, type: 2}
+  - type: tank
+    parts:
+    - {fileID: 133176, guid: 3a3fb354a57604447b06d5096196f7d2, type: 2}
+  - type: town
+    parts: []
+  LoadAllRooms: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 144778}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

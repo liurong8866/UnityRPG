@@ -1,0 +1,129 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "ORIGIN": "Bottom Center", 
+                "NAME": "Water Drops", 
+                "VISIBLE": true, 
+                "RENDER STYLE": "Additive", 
+                "TEXTURE": "media/particles/textures/particle/watershot.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER TYPE": "Billboard Forward Camera", 
+                "PARENTID": "-1", 
+                "ID": "-8363167692181138978"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color6", 
+                                "PARENTID": "-8363167692181138978", 
+                                "COLOR OVER TIME": "0,0,0,0,1,0.356902,0.141176,0.184314,0.156863,1,1,0,0,0,1", 
+                                "ID": "-8363167687886171682", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Linear Force", 
+                                "NAME": "Linear Force7", 
+                                "PARENTID": "-8363167692181138978", 
+                                "FORCESX": 0.0, 
+                                "FORCESZ": 0.0, 
+                                "ID": "-8363167683591204386", 
+                                "FORCESY": -2.0, 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "NAME": "Scale8", 
+                                "PARENTID": "-8363167692181138978", 
+                                "Y": "3,0,1,0.274,2.427,1,6", 
+                                "X": "2,0,1,1,2", 
+                                "ID": "-8363167679296237090", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "HEIGHT_": 0.5, 
+                                "ANGLE": "0,10", 
+                                "NAME": "Emitter2", 
+                                "TYPE OF EMITTER": "Box", 
+                                "DIRECTIONZ": 0.0, 
+                                "DEPTH_": 3.0, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "DIRECTIONY": 0.0, 
+                                "DIRECTIONX": 1.0, 
+                                "SCALE ON LAUNCH": "0,2", 
+                                "PARENTID": "-8363167692181138978", 
+                                "EMIT RATE": "0,25", 
+                                "VELOCITY": "1,0.2,0.3", 
+                                "FIXED": true, 
+                                "PARTICLE LIFE": "0,1.5", 
+                                "ID": "-8363167675001269794", 
+                                "WIDTH_": 0.0
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Align", 
+                                "NAME": "Align4", 
+                                "PARENTID": "-8363167692181138978", 
+                                "ID": "-8363167670706302498", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

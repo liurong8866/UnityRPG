@@ -1,0 +1,107 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "POSITIONZ": -0.0, 
+                "POSITIONX": 0.0, 
+                "POSITIONY": 0.0, 
+                "VISUAL SCALE": 1.5, 
+                "VISUAL QUOTA": "10", 
+                "FORWARDY": 1.0, 
+                "PARENTID": "-1", 
+                "IS LIGHT": true, 
+                "FORWARDX": 0.0, 
+                "TEXTURE": "media/particles/textures/glow/lightpool.dds", 
+                "FORWARDZ": 0.0, 
+                "RENDER TYPE": "Billboard Forward", 
+                "UPZ": -1.0, 
+                "UPX": 0.0, 
+                "UPY": 0.0, 
+                "children": [], 
+                "VELOCITY SCALE": 1.5, 
+                "NAME": "Light", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER STYLE": "Additive", 
+                "ID": "-148068934845394466", 
+                "stackName": "PROPERTIES", 
+                "VISIBLE": true
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color2", 
+                                "PARENTID": "-148068934845394466", 
+                                "COLOR OVER TIME": "0,0.611765,0.352941,0.0705882,1,0.5,0.819608,0.47451,0.0941176,1,1,0.611765,0.352941,0.0705882,1", 
+                                "ID": "-148068930550427170", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": -4.7, 
+                                "ANGLE": "0,0", 
+                                "DIRECTIONZ": 1.0, 
+                                "DIRECTIONY": 0.0, 
+                                "DIRECTIONX": 0.0, 
+                                "PARENTID": "-148068934845394466", 
+                                "EMIT RATE": "0,1", 
+                                "PARTICLE LIFE": "0,3", 
+                                "ID": "-148068926255459874", 
+                                "FIXED": true, 
+                                "NO EXPIRATION": true, 
+                                "NAME": "Emitter1", 
+                                "EMIT DURATION": "0,0", 
+                                "KEEP LOCAL": true, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "SCALE ON LAUNCH": "0,8", 
+                                "VELOCITY": "0,0", 
+                                "NUM LOOPS": "1"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Rotate", 
+                                "NAME": "Texture Rotate3", 
+                                "PARENTID": "-148068934845394466", 
+                                "ROTATION SPEED": "0,0", 
+                                "USE OWN ROTATION": true, 
+                                "ID": "-148068921960492578", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,1274 @@
+{
+    "stackName": "PARTICLE CREATOR", 
+    "COUNT": "13", 
+    "VERSION": "2", 
+    "children": [
+        {
+            "stackName": "OBJECTS", 
+            "children": [
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Particle", 
+                            "NAME": "Flashes", 
+                            "PARENTID": "-1", 
+                            "ID": "-3880436693794352675", 
+                            "children": [
+                                {
+                                    "stackName": "POSITION", 
+                                    "children": [], 
+                                    "VALUE": "0,2,0"
+                                }, 
+                                {
+                                    "stackName": "FORWARD", 
+                                    "children": [], 
+                                    "VALUE": "0,0,1"
+                                }, 
+                                {
+                                    "stackName": "RIGHT", 
+                                    "children": [], 
+                                    "VALUE": "1,0,0"
+                                }, 
+                                {
+                                    "stackName": "UP", 
+                                    "children": [], 
+                                    "VALUE": "0,1,0"
+                                }, 
+                                {
+                                    "stackName": "RENDER TYPE", 
+                                    "children": [], 
+                                    "VALUE": "Billboard"
+                                }, 
+                                {
+                                    "stackName": "VISUAL SCALE", 
+                                    "children": [], 
+                                    "VALUE": "0.5"
+                                }, 
+                                {
+                                    "stackName": "TIME SCALE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "VELOCITY SCALE", 
+                                    "children": [], 
+                                    "VALUE": "0.5"
+                                }, 
+                                {
+                                    "stackName": "LIFE TIME", 
+                                    "children": [], 
+                                    "VALUE": "3"
+                                }, 
+                                {
+                                    "stackName": "IS LIGHT", 
+                                    "children": [], 
+                                    "VALUE": "false"
+                                }, 
+                                {
+                                    "stackName": "VISIBLE", 
+                                    "children": [], 
+                                    "VALUE": "true"
+                                }, 
+                                {
+                                    "stackName": "SORTS", 
+                                    "children": [], 
+                                    "VALUE": "false"
+                                }, 
+                                {
+                                    "stackName": "SORT INDEX", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }, 
+                                {
+                                    "stackName": "VELOCITY", 
+                                    "children": [], 
+                                    "VALUE": "9999"
+                                }, 
+                                {
+                                    "stackName": "VISUAL QUOTA", 
+                                    "children": [], 
+                                    "VALUE": "10"
+                                }, 
+                                {
+                                    "stackName": "TEXTURE", 
+                                    "children": [], 
+                                    "VALUE": "media\\particles\\textures\\flash\\flash04.dds"
+                                }, 
+                                {
+                                    "stackName": "RENDER STYLE", 
+                                    "children": [], 
+                                    "VALUE": "Additive"
+                                }, 
+                                {
+                                    "stackName": "MESH", 
+                                    "children": [], 
+                                    "VALUE": ""
+                                }, 
+                                {
+                                    "stackName": "DEPTH CHECK", 
+                                    "children": [], 
+                                    "VALUE": "true"
+                                }, 
+                                {
+                                    "stackName": "ROTATION TYPE", 
+                                    "children": [], 
+                                    "VALUE": "Geometry"
+                                }, 
+                                {
+                                    "stackName": "ORIGIN", 
+                                    "children": [], 
+                                    "VALUE": "Center"
+                                }, 
+                                {
+                                    "stackName": "LENGTH", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "WIDTH", 
+                                    "children": [], 
+                                    "VALUE": "10"
+                                }, 
+                                {
+                                    "stackName": "SEGMENTS", 
+                                    "children": [], 
+                                    "VALUE": "3"
+                                }, 
+                                {
+                                    "stackName": "FRAMES WIDE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "FRAMES HIGH", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "U RATE", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }, 
+                                {
+                                    "stackName": "V RATE", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }
+                            ]
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Color", 
+                                            "NAME": "Color17_clone7", 
+                                            "PARENTID": "-3880436693794352675", 
+                                            "ID": "-3880436685204418083", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLE", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "COLOR OVER TIME", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.501961,0.501961,0.501961,1,1,0,0,0,1"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Texture Rotate", 
+                                            "NAME": "Texture Rotate16_clone8", 
+                                            "PARENTID": "-3880436693794352675", 
+                                            "ID": "-3880436680909450787", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLE", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "ROTATION SPEED", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "STARTING ROTATION", 
+                                                    "children": [], 
+                                                    "VALUE": "1,0,360"
+                                                }, 
+                                                {
+                                                    "stackName": "USE OWN ROTATION", 
+                                                    "children": [], 
+                                                    "VALUE": "false"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Scale", 
+                                            "NAME": "Scale15_clone9", 
+                                            "PARENTID": "-3880436693794352675", 
+                                            "ID": "-3880436676614483491", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLE", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "X", 
+                                                    "children": [], 
+                                                    "VALUE": "2,0,0,0.2,15"
+                                                }, 
+                                                {
+                                                    "stackName": "Y", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "Z", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Emitter", 
+                                            "NAME": "Emitter14_clone10", 
+                                            "PARENTID": "-3880436693794352675", 
+                                            "ID": "-3880436672319516195", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "TYPE OF EMITTER", 
+                                                    "children": [], 
+                                                    "VALUE": "SphereSurface"
+                                                }, 
+                                                {
+                                                    "stackName": "DIRECTION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1,0"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "SCALE ON LAUNCH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "WIDTH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "HEIGHT", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "DEPTH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ANGLE", 
+                                                    "children": [], 
+                                                    "VALUE": "0,45"
+                                                }, 
+                                                {
+                                                    "stackName": "VELOCITY", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "MASS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "KEEP LOCAL", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLED", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "NO EXPIRATION", 
+                                                    "children": [], 
+                                                    "VALUE": "false"
+                                                }, 
+                                                {
+                                                    "stackName": "DELAY", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "PARTICLE LIFE", 
+                                                    "children": [], 
+                                                    "VALUE": "1,0.2,0.4"
+                                                }, 
+                                                {
+                                                    "stackName": "EMIT DURATION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.5"
+                                                }, 
+                                                {
+                                                    "stackName": "EMIT RATE", 
+                                                    "children": [], 
+                                                    "VALUE": "0,10"
+                                                }, 
+                                                {
+                                                    "stackName": "NUM LOOPS", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MIN INCREMENT", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX INCREMENT", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX DEVIATION", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "WIDTH_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "HEIGHT_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "DEPTH_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "MIN RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,3"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,3"
+                                                }, 
+                                                {
+                                                    "stackName": "STEP", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.1"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED_", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Particle", 
+                            "NAME": "Burst Particles", 
+                            "PARENTID": "-1", 
+                            "ID": "-3880436668024548899", 
+                            "children": [
+                                {
+                                    "stackName": "POSITION", 
+                                    "children": [], 
+                                    "VALUE": "0,1,0"
+                                }, 
+                                {
+                                    "stackName": "FORWARD", 
+                                    "children": [], 
+                                    "VALUE": "0,0,1"
+                                }, 
+                                {
+                                    "stackName": "RIGHT", 
+                                    "children": [], 
+                                    "VALUE": "1,0,0"
+                                }, 
+                                {
+                                    "stackName": "UP", 
+                                    "children": [], 
+                                    "VALUE": "0,1,0"
+                                }, 
+                                {
+                                    "stackName": "RENDER TYPE", 
+                                    "children": [], 
+                                    "VALUE": "Billboard"
+                                }, 
+                                {
+                                    "stackName": "VISUAL SCALE", 
+                                    "children": [], 
+                                    "VALUE": "0.4"
+                                }, 
+                                {
+                                    "stackName": "TIME SCALE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "VELOCITY SCALE", 
+                                    "children": [], 
+                                    "VALUE": "0.1"
+                                }, 
+                                {
+                                    "stackName": "LIFE TIME", 
+                                    "children": [], 
+                                    "VALUE": "3"
+                                }, 
+                                {
+                                    "stackName": "IS LIGHT", 
+                                    "children": [], 
+                                    "VALUE": "false"
+                                }, 
+                                {
+                                    "stackName": "VISIBLE", 
+                                    "children": [], 
+                                    "VALUE": "true"
+                                }, 
+                                {
+                                    "stackName": "SORTS", 
+                                    "children": [], 
+                                    "VALUE": "false"
+                                }, 
+                                {
+                                    "stackName": "SORT INDEX", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }, 
+                                {
+                                    "stackName": "VELOCITY", 
+                                    "children": [], 
+                                    "VALUE": "9999"
+                                }, 
+                                {
+                                    "stackName": "VISUAL QUOTA", 
+                                    "children": [], 
+                                    "VALUE": "30"
+                                }, 
+                                {
+                                    "stackName": "TEXTURE", 
+                                    "children": [], 
+                                    "VALUE": "media\\particles\\textures\\particle\\redparticle.dds"
+                                }, 
+                                {
+                                    "stackName": "RENDER STYLE", 
+                                    "children": [], 
+                                    "VALUE": "Additive"
+                                }, 
+                                {
+                                    "stackName": "MESH", 
+                                    "children": [], 
+                                    "VALUE": ""
+                                }, 
+                                {
+                                    "stackName": "DEPTH CHECK", 
+                                    "children": [], 
+                                    "VALUE": "true"
+                                }, 
+                                {
+                                    "stackName": "ROTATION TYPE", 
+                                    "children": [], 
+                                    "VALUE": "Geometry"
+                                }, 
+                                {
+                                    "stackName": "ORIGIN", 
+                                    "children": [], 
+                                    "VALUE": "Center"
+                                }, 
+                                {
+                                    "stackName": "LENGTH", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "WIDTH", 
+                                    "children": [], 
+                                    "VALUE": "10"
+                                }, 
+                                {
+                                    "stackName": "SEGMENTS", 
+                                    "children": [], 
+                                    "VALUE": "3"
+                                }, 
+                                {
+                                    "stackName": "FRAMES WIDE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "FRAMES HIGH", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "U RATE", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }, 
+                                {
+                                    "stackName": "V RATE", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }
+                            ]
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Linear Force", 
+                                            "NAME": "Linear Force2", 
+                                            "PARENTID": "-3880436668024548899", 
+                                            "ID": "-3880436659434614307", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLE", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "FORCE APPLICATION", 
+                                                    "children": [], 
+                                                    "VALUE": "Add"
+                                                }, 
+                                                {
+                                                    "stackName": "FORCES", 
+                                                    "children": [], 
+                                                    "VALUE": "0,8,0"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Vortext", 
+                                            "NAME": "Vortext35_clone35", 
+                                            "PARENTID": "-3880436668024548899", 
+                                            "ID": "-3880436655139647011", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLE", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "DIRECTION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1,0"
+                                                }, 
+                                                {
+                                                    "stackName": "RATE", 
+                                                    "children": [], 
+                                                    "VALUE": "3,0,10,0.656,7.379,1,2"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Emitter", 
+                                            "NAME": "Emitter37_clone37", 
+                                            "PARENTID": "-3880436668024548899", 
+                                            "ID": "-3880436650844679715", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,2,0"
+                                                }, 
+                                                {
+                                                    "stackName": "TYPE OF EMITTER", 
+                                                    "children": [], 
+                                                    "VALUE": "Point"
+                                                }, 
+                                                {
+                                                    "stackName": "DIRECTION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1,0"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED", 
+                                                    "children": [], 
+                                                    "VALUE": "false"
+                                                }, 
+                                                {
+                                                    "stackName": "SCALE ON LAUNCH", 
+                                                    "children": [], 
+                                                    "VALUE": "1,0.5,1"
+                                                }, 
+                                                {
+                                                    "stackName": "WIDTH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "HEIGHT", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "DEPTH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ANGLE", 
+                                                    "children": [], 
+                                                    "VALUE": "0,90"
+                                                }, 
+                                                {
+                                                    "stackName": "VELOCITY", 
+                                                    "children": [], 
+                                                    "VALUE": "0,-20"
+                                                }, 
+                                                {
+                                                    "stackName": "MASS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "KEEP LOCAL", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLED", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "NO EXPIRATION", 
+                                                    "children": [], 
+                                                    "VALUE": "false"
+                                                }, 
+                                                {
+                                                    "stackName": "DELAY", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "PARTICLE LIFE", 
+                                                    "children": [], 
+                                                    "VALUE": "1,0.8,1.2"
+                                                }, 
+                                                {
+                                                    "stackName": "EMIT DURATION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "EMIT RATE", 
+                                                    "children": [], 
+                                                    "VALUE": "0,10"
+                                                }, 
+                                                {
+                                                    "stackName": "NUM LOOPS", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MIN INCREMENT", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX INCREMENT", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX DEVIATION", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "WIDTH_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "HEIGHT_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "DEPTH_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "15"
+                                                }, 
+                                                {
+                                                    "stackName": "MIN RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,2"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,5"
+                                                }, 
+                                                {
+                                                    "stackName": "STEP", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.1"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED_", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Scale", 
+                                            "NAME": "Scale3", 
+                                            "PARENTID": "-3880436668024548899", 
+                                            "ID": "-3880436646549712419", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,4"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLE", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "X", 
+                                                    "children": [], 
+                                                    "VALUE": "2,0,1,0.5,1,1,0"
+                                                }, 
+                                                {
+                                                    "stackName": "Y", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "Z", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Particle", 
+                            "NAME": "Rising Glow", 
+                            "PARENTID": "-1", 
+                            "ID": "-3880436642254745123", 
+                            "children": [
+                                {
+                                    "stackName": "POSITION", 
+                                    "children": [], 
+                                    "VALUE": "0,0,0"
+                                }, 
+                                {
+                                    "stackName": "FORWARD", 
+                                    "children": [], 
+                                    "VALUE": "0,0,1"
+                                }, 
+                                {
+                                    "stackName": "RIGHT", 
+                                    "children": [], 
+                                    "VALUE": "1,0,0"
+                                }, 
+                                {
+                                    "stackName": "UP", 
+                                    "children": [], 
+                                    "VALUE": "0,1,0"
+                                }, 
+                                {
+                                    "stackName": "RENDER TYPE", 
+                                    "children": [], 
+                                    "VALUE": "Billboard Up Camera"
+                                }, 
+                                {
+                                    "stackName": "VISUAL SCALE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "TIME SCALE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "VELOCITY SCALE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "LIFE TIME", 
+                                    "children": [], 
+                                    "VALUE": "3"
+                                }, 
+                                {
+                                    "stackName": "IS LIGHT", 
+                                    "children": [], 
+                                    "VALUE": "false"
+                                }, 
+                                {
+                                    "stackName": "VISIBLE", 
+                                    "children": [], 
+                                    "VALUE": "true"
+                                }, 
+                                {
+                                    "stackName": "SORTS", 
+                                    "children": [], 
+                                    "VALUE": "false"
+                                }, 
+                                {
+                                    "stackName": "SORT INDEX", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }, 
+                                {
+                                    "stackName": "VELOCITY", 
+                                    "children": [], 
+                                    "VALUE": "9999"
+                                }, 
+                                {
+                                    "stackName": "VISUAL QUOTA", 
+                                    "children": [], 
+                                    "VALUE": "10"
+                                }, 
+                                {
+                                    "stackName": "TEXTURE", 
+                                    "children": [], 
+                                    "VALUE": "media\\particles\\textures\\glow\\glowred.dds"
+                                }, 
+                                {
+                                    "stackName": "RENDER STYLE", 
+                                    "children": [], 
+                                    "VALUE": "Additive"
+                                }, 
+                                {
+                                    "stackName": "MESH", 
+                                    "children": [], 
+                                    "VALUE": ""
+                                }, 
+                                {
+                                    "stackName": "DEPTH CHECK", 
+                                    "children": [], 
+                                    "VALUE": "true"
+                                }, 
+                                {
+                                    "stackName": "ROTATION TYPE", 
+                                    "children": [], 
+                                    "VALUE": "Geometry"
+                                }, 
+                                {
+                                    "stackName": "ORIGIN", 
+                                    "children": [], 
+                                    "VALUE": "Center"
+                                }, 
+                                {
+                                    "stackName": "LENGTH", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "WIDTH", 
+                                    "children": [], 
+                                    "VALUE": "10"
+                                }, 
+                                {
+                                    "stackName": "SEGMENTS", 
+                                    "children": [], 
+                                    "VALUE": "3"
+                                }, 
+                                {
+                                    "stackName": "FRAMES WIDE", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "FRAMES HIGH", 
+                                    "children": [], 
+                                    "VALUE": "1"
+                                }, 
+                                {
+                                    "stackName": "U RATE", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }, 
+                                {
+                                    "stackName": "V RATE", 
+                                    "children": [], 
+                                    "VALUE": "0"
+                                }
+                            ]
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Emitter", 
+                                            "NAME": "Emitter14_clone14", 
+                                            "PARENTID": "-3880436642254745123", 
+                                            "ID": "-3880436633664810531", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.1,0"
+                                                }, 
+                                                {
+                                                    "stackName": "TYPE OF EMITTER", 
+                                                    "children": [], 
+                                                    "VALUE": "Point"
+                                                }, 
+                                                {
+                                                    "stackName": "DIRECTION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1,0"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "SCALE ON LAUNCH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,3"
+                                                }, 
+                                                {
+                                                    "stackName": "WIDTH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "HEIGHT", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "DEPTH", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ANGLE", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "VELOCITY", 
+                                                    "children": [], 
+                                                    "VALUE": "1,0.5,3.8"
+                                                }, 
+                                                {
+                                                    "stackName": "MASS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,1"
+                                                }, 
+                                                {
+                                                    "stackName": "KEEP LOCAL", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLED", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "NO EXPIRATION", 
+                                                    "children": [], 
+                                                    "VALUE": "false"
+                                                }, 
+                                                {
+                                                    "stackName": "DELAY", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "PARTICLE LIFE", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.7"
+                                                }, 
+                                                {
+                                                    "stackName": "EMIT DURATION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "EMIT RATE", 
+                                                    "children": [], 
+                                                    "VALUE": "0,10"
+                                                }, 
+                                                {
+                                                    "stackName": "NUM LOOPS", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MIN INCREMENT", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX INCREMENT", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX DEVIATION", 
+                                                    "children": [], 
+                                                    "VALUE": "0"
+                                                }, 
+                                                {
+                                                    "stackName": "WIDTH_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "HEIGHT_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "DEPTH_", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "1"
+                                                }, 
+                                                {
+                                                    "stackName": "MIN RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,3"
+                                                }, 
+                                                {
+                                                    "stackName": "MAX RADIUS", 
+                                                    "children": [], 
+                                                    "VALUE": "0,3"
+                                                }, 
+                                                {
+                                                    "stackName": "STEP", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.1"
+                                                }, 
+                                                {
+                                                    "stackName": "FIXED_", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Color", 
+                                            "NAME": "Color17_clone17", 
+                                            "PARENTID": "-3880436642254745123", 
+                                            "ID": "-3880436629369843235", 
+                                            "children": [
+                                                {
+                                                    "stackName": "POSITION", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0,0"
+                                                }, 
+                                                {
+                                                    "stackName": "ENABLE", 
+                                                    "children": [], 
+                                                    "VALUE": "true"
+                                                }, 
+                                                {
+                                                    "stackName": "COLOR OVER TIME", 
+                                                    "children": [], 
+                                                    "VALUE": "0,0.364706,0.364706,0.364706,1,1,0,0,0,1"
+                                                }
+                                            ]
+                                        }, 
+                                        {
+                                            "stackName": "CHILDREN", 
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

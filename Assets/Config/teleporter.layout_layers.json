@@ -1,0 +1,320 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "POSITIONZ": -0.0300006, 
+                "POSITIONX": 0.12, 
+                "POSITIONY": 0.38, 
+                "NAME": "Glowing Symbol", 
+                "VISIBLE": true, 
+                "RENDER STYLE": "Additive", 
+                "UPY": 0.0, 
+                "FORWARDY": 1.0, 
+                "FORWARDX": 0.0, 
+                "TEXTURE": "media/particles/textures/object/stemple_dias.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER TYPE": "Billboard Forward", 
+                "UPZ": -1.0, 
+                "UPX": 0.0, 
+                "PARENTID": "-1", 
+                "FORWARDZ": 0.0, 
+                "ID": "3965175769602265566"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color5", 
+                                "PARENTID": "3965175769602265566", 
+                                "COLOR OVER TIME": "0,0.356863,0.843137,0.54902,1,0.46633,0.384314,0.811765,0.403922,1,1,0.356863,0.843137,0.54902,1", 
+                                "ID": "3965175773897232862", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "children": [], 
+                                "NAME": "Emitter4", 
+                                "EMIT DURATION": "0,0", 
+                                "KEEP LOCAL": true, 
+                                "ID": "3965175778192200158", 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "SCALE ON LAUNCH": "0,2.2", 
+                                "PARENTID": "3965175769602265566", 
+                                "EMIT RATE": "0,1", 
+                                "VELOCITY": "0,0", 
+                                "PARTICLE LIFE": "0,3", 
+                                "NO EXPIRATION": true
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "NAME": "sparkles", 
+                "VISIBLE": true, 
+                "VISUAL QUOTA": "500", 
+                "RENDER STYLE": "Additive", 
+                "TEXTURE": "media/particles/textures/glow/glow_aura.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "PARENTID": "-1", 
+                "SORT INDEX": "1", 
+                "ID": "3965175782487167454"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color3", 
+                                "PARENTID": "3965175782487167454", 
+                                "COLOR OVER TIME": "0,0,0,0,1,1,0.533333,1,0.741176,1", 
+                                "ID": "3965175786782134750", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 2.0, 
+                                "ANGLE": "0,5", 
+                                "NAME": "Emitter2", 
+                                "TYPE OF EMITTER": "Box", 
+                                "DEPTH_": 1.5, 
+                                "KEEP LOCAL": true, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "HEIGHT_": 3.0, 
+                                "SCALE ON LAUNCH": "1,0.8,2", 
+                                "PARENTID": "3965175782487167454", 
+                                "EMIT RATE": "1,0,50", 
+                                "VELOCITY": "1,0,0.5", 
+                                "PARTICLE LIFE": "1,0.5,1", 
+                                "ID": "3965175791077102046", 
+                                "WIDTH_": 1.5
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Vortext", 
+                                "DIRECTIONY": 0.2, 
+                                "DIRECTIONX": 0.0, 
+                                "NAME": "Vortext0", 
+                                "PARENTID": "3965175782487167454", 
+                                "DIRECTIONZ": 0.0, 
+                                "ID": "3965175795372069342", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Gravity Well", 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 4.0, 
+                                "NAME": "Gravity Well1_clone1", 
+                                "POSITIONZ": 0.0, 
+                                "PARENTID": "3965175782487167454", 
+                                "GRAVITY": 0.5, 
+                                "ID": "3965175799667036638", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "NAME": "Scale2", 
+                                "PARENTID": "3965175782487167454", 
+                                "X": "2,0,1,1,0", 
+                                "FIXED": true, 
+                                "ID": "3965175803962003934", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "POSITIONZ": -0.0, 
+                "POSITIONX": -0.0, 
+                "POSITIONY": 0.0, 
+                "WIDTH": 0.25, 
+                "NAME": "Trail Spiral", 
+                "VISIBLE": true, 
+                "SEGMENTS": "20", 
+                "RENDER STYLE": "Additive", 
+                "TEXTURE": "media/particles/textures/trail/trail20.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER TYPE": "RibbonTrail", 
+                "PARENTID": "-1", 
+                "ID": "3965175808256971230"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 0.5, 
+                                "ANGLE": "0,0", 
+                                "NAME": "Emitter4", 
+                                "TYPE OF EMITTER": "Circle", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "MAX RADIUS": "0,1", 
+                                "PARENTID": "3965175808256971230", 
+                                "EMIT RATE": "0,5", 
+                                "VELOCITY": "0,3", 
+                                "PARTICLE LIFE": "0,2", 
+                                "ID": "3965175812551938526", 
+                                "MIN RADIUS": "0,0"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Vortext", 
+                                "DIRECTIONY": -0.6, 
+                                "DIRECTIONX": 0.0, 
+                                "NAME": "Vortext5", 
+                                "RATE": "0,5", 
+                                "PARENTID": "3965175808256971230", 
+                                "DIRECTIONZ": 0.0, 
+                                "ID": "3965175816846905822", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color6", 
+                                "PARENTID": "3965175808256971230", 
+                                "COLOR OVER TIME": "0,0,0,0,1,0.0925926,0.247059,0.470588,0.290196,1,0.609428,0.180392,0.403922,0.290196,1,1,0,0,0,1", 
+                                "ID": "3965175821141873118", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Gravity Well", 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 4.11, 
+                                "NAME": "Gravity Well0", 
+                                "POSITIONZ": 0.0, 
+                                "PARENTID": "3965175808256971230", 
+                                "GRAVITY": 1.5, 
+                                "ID": "3965175825436840414", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "WORLD ORIENTATION": true, 
+                "WIDTH": 0.3, 
+                "NAME": "Particle3", 
+                "VISIBLE": true, 
+                "VISUAL QUOTA": "5", 
+                "SEGMENTS": "14", 
+                "RENDER STYLE": "Additive", 
+                "TEXTURE": "media/particles/textures/trail/trail36.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "LENGTH": 2.0, 
+                "RENDER TYPE": "RibbonTrail", 
+                "PARENTID": "-1", 
+                "ID": "-3614724635376283170"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color2", 
+                                "PARENTID": "-3614724635376283170", 
+                                "COLOR OVER TIME": "0,0.619608,0.752941,1,1", 
+                                "ID": "-3614724631081315874", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 1.0, 
+                                "ANGLE": "0,1", 
+                                "FIXED_": false, 
+                                "END POSITIONX": 0.0, 
+                                "HEIGHT": "0,0.3", 
+                                "WIDTH": "0,0.3", 
+                                "HEIGHT_": 0.2, 
+                                "RADIUS": 0.7, 
+                                "PARENTID": "-3614724635376283170", 
+                                "EMIT RATE": "0,5", 
+                                "PARTICLE LIFE": "0,1", 
+                                "ID": "-3614724626786348578", 
+                                "FIXED": true, 
+                                "NO EXPIRATION": true, 
+                                "MIN RADIUS": "0,0.3", 
+                                "END POSITIONZ": 0.0, 
+                                "NAME": "Emitter4", 
+                                "TYPE OF EMITTER": "Circle", 
+                                "EMIT DURATION": "0,0", 
+                                "END POSITIONY": 0.2, 
+                                "KEEP LOCAL": true, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "MAX RADIUS": "0,0.5", 
+                                "SCALE ON LAUNCH": "0,1", 
+                                "VELOCITY": "0,0", 
+                                "MAX DEVIATION": 3.0
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": [
+                                    {
+                                        "stackName": "BASEOBJECT", 
+                                        "children": [
+                                            {
+                                                "stackName": "PROPERTIES", 
+                                                "DESCRIPTOR": "Vortext", 
+                                                "RATE": "0,-5", 
+                                                "NAME": "Vortext5", 
+                                                "PARENTID": "-3614724626786348578", 
+                                                "ID": "-3614724622491381282", 
+                                                "children": []
+                                            }, 
+                                            {
+                                                "stackName": "CHILDREN", 
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

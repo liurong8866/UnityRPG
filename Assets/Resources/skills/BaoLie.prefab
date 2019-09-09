@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &164118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 464118}
+  - 114: {fileID: 11464118}
+  m_Layer: 0
+  m_Name: BaoLie
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &464118
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164118}
+  m_LocalRotation: {x: -.999887943, y: 2.67770375e-08, z: -.0149748037, w: -1.78793903e-06}
+  m_LocalPosition: {x: -.0565749854, y: 2.41866374, z: 1.32335651}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11464118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d3fd4ec4f0f144a7931205bdb8bd619, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventList:
+  - evt: 10001
+    layout: {fileID: 193400, guid: a1e1c7d1726154c4399b5605c108bfe9, type: 2}
+    affix:
+      effectType: 0
+      Duration: 0
+      UnitTheme: {fileID: 0}
+      ThemePos: {x: 0, y: 0, z: 0}
+      addDefense: 0
+      target: 0
+      affixParameters: []
+      IsOnlyOne: 0
+      fireParticle: {fileID: 0}
+      keepOld: 0
+    attachOwner: 0
+    attaches: 0
+    childSkillId: 0
+    AttachToTarget: 0
+    SetBeamTarget: 0
+    BeamOffset: {x: 0, y: 1, z: 0}
+    TargetPos: 1
+    UseMarkPos: 0
+  - evt: 10000
+    layout: {fileID: 193400, guid: a0dc708fd36bd4222b9211a0739bbe23, type: 2}
+    affix:
+      effectType: 0
+      Duration: 0
+      UnitTheme: {fileID: 0}
+      ThemePos: {x: 0, y: 0, z: 0}
+      addDefense: 0
+      target: 0
+      affixParameters: []
+      IsOnlyOne: 0
+      fireParticle: {fileID: 0}
+      keepOld: 0
+    attachOwner: 0
+    attaches: 0
+    childSkillId: 0
+    AttachToTarget: 0
+    SetBeamTarget: 0
+    BeamOffset: {x: 0, y: 1, z: 0}
+    TargetPos: 0
+    UseMarkPos: 1
+  animationLoop: 0
+  attackDuration: 1
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 164118}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,92 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "ORIGIN": "Center Right", 
+                "NAME": "Water Skipper", 
+                "VISIBLE": true, 
+                "RENDER STYLE": "Alpha", 
+                "TEXTURE": "media/particles/textures/object/waterskipper2_offset.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER TYPE": "Billboard Up", 
+                "PARENTID": "-1", 
+                "ID": "-5273450917784383010"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Rotate", 
+                                "NAME": "Texture Rotate2", 
+                                "PARENTID": "-5273450917784383010", 
+                                "ROTATION SPEED": "2,0,0,0.201,0,0.22,45.487,0.344,0,0.592,0,0.619,75,0.82,0,1,0", 
+                                "STARTING ROTATION": "1,0,6.283", 
+                                "ID": "-5273450913489415714", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 0.1, 
+                                "NAME": "Emitter1", 
+                                "TYPE OF EMITTER": "Circle", 
+                                "WIDTH": "0,2", 
+                                "EMIT DURATION": "0,0", 
+                                "NO EXPIRATION": true, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "MAX RADIUS": "0,1.5", 
+                                "FIXED_": false, 
+                                "SCALE ON LAUNCH": "1,0.5,0.9", 
+                                "PARENTID": "-5273450917784383010", 
+                                "VELOCITY": "0,0", 
+                                "HEIGHT": "0,0.25", 
+                                "PARTICLE LIFE": "1,3,10", 
+                                "ID": "-5273450909194448418"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color3", 
+                                "PARENTID": "-5273450917784383010", 
+                                "COLOR OVER TIME": "0,0,0,0,1", 
+                                "ID": "-5273450904899481122", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

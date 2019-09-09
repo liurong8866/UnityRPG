@@ -1,0 +1,93 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER TYPE": "Billboard Up Camera", 
+                "NAME": "glimmers", 
+                "PARENTID": "-1", 
+                "VISIBLE": true, 
+                "RENDER STYLE": "Additive", 
+                "ID": "-9027948922086092322", 
+                "TEXTURE": "media/particles/textures/particle/darkspark.dds", 
+                "children": []
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Align", 
+                                "NAME": "Align4", 
+                                "PARENTID": "-9027948922086092322", 
+                                "ID": "-9027948917791125026", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color3", 
+                                "PARENTID": "-9027948922086092322", 
+                                "COLOR OVER TIME": "0,0,0,0,1,0.451178,0.376471,0.376471,0.376471,1,0.5,1,1,1,1,0.574074,0.376471,0.376471,0.376471,1,1,0,0,0,1", 
+                                "ID": "-9027948913496157730", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 0.1, 
+                                "ANGLE": "0,0", 
+                                "WIDTH": "0,0.4", 
+                                "DIRECTIONY": 0.0, 
+                                "DIRECTIONX": 0.707107, 
+                                "PARENTID": "-9027948922086092322", 
+                                "EMIT RATE": "0,100", 
+                                "PARTICLE LIFE": "1,0.3,0.5", 
+                                "FIXED_": false, 
+                                "EMIT DURATION": "0,0.5", 
+                                "children": [], 
+                                "MIN RADIUS": "0,0", 
+                                "NAME": "Emitter1", 
+                                "TYPE OF EMITTER": "Circle", 
+                                "DIRECTIONZ": 0.707107, 
+                                "ID": "-9027948909201190434", 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "MAX RADIUS": "2,0,1,1,7", 
+                                "SCALE ON LAUNCH": "1,0.3,0.8", 
+                                "VELOCITY": "1,0.05,0.5"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

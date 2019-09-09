@@ -1,0 +1,332 @@
+fileFormatVersion: 2
+guid: 75db10caba09747a1ad66a7f061118e9
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Armature|Bip01
+    100006: Armature|Bip01 Head
+    100008: Armature|Bip01 L Calf
+    100010: Armature|Bip01 L Clavicle
+    100012: Armature|Bip01 L Finger0
+    100014: Armature|Bip01 L Finger01
+    100016: Armature|Bip01 L Finger1
+    100018: Armature|Bip01 L Finger11
+    100020: Armature|Bip01 L Finger2
+    100022: Armature|Bip01 L Finger21
+    100024: Armature|Bip01 L Foot
+    100026: Armature|Bip01 L Forearm
+    100028: Armature|Bip01 L Hand
+    100030: Armature|Bip01 L Thigh
+    100032: Armature|Bip01 L Toe0
+    100034: Armature|Bip01 L UpperArm
+    100036: Armature|Bip01 Neck
+    100038: Armature|Bip01 Pelvis
+    100040: Armature|Bip01 R Calf
+    100042: Armature|Bip01 R Clavicle
+    100044: Armature|Bip01 R Finger0
+    100046: Armature|Bip01 R Finger01
+    100048: Armature|Bip01 R Finger1
+    100050: Armature|Bip01 R Finger11
+    100052: Armature|Bip01 R Finger2
+    100054: Armature|Bip01 R Finger21
+    100056: Armature|Bip01 R Foot
+    100058: Armature|Bip01 R Forearm
+    100060: Armature|Bip01 R Hand
+    100062: Armature|Bip01 R Thigh
+    100064: Armature|Bip01 R Toe0
+    100066: Armature|Bip01 R UpperArm
+    100068: Armature|Bip01 Spine
+    100070: Armature|Bip01 Spine1
+    100072: Armature|Bip01 Spine2
+    100074: Armature|root
+    100076: Camera
+    100078: Lamp
+    100080: Lamp.001
+    100082: Lamp.002
+    100084: obj0
+    400000: //RootNode
+    400002: Armature
+    400004: Armature|Bip01
+    400006: Armature|Bip01 Head
+    400008: Armature|Bip01 L Calf
+    400010: Armature|Bip01 L Clavicle
+    400012: Armature|Bip01 L Finger0
+    400014: Armature|Bip01 L Finger01
+    400016: Armature|Bip01 L Finger1
+    400018: Armature|Bip01 L Finger11
+    400020: Armature|Bip01 L Finger2
+    400022: Armature|Bip01 L Finger21
+    400024: Armature|Bip01 L Foot
+    400026: Armature|Bip01 L Forearm
+    400028: Armature|Bip01 L Hand
+    400030: Armature|Bip01 L Thigh
+    400032: Armature|Bip01 L Toe0
+    400034: Armature|Bip01 L UpperArm
+    400036: Armature|Bip01 Neck
+    400038: Armature|Bip01 Pelvis
+    400040: Armature|Bip01 R Calf
+    400042: Armature|Bip01 R Clavicle
+    400044: Armature|Bip01 R Finger0
+    400046: Armature|Bip01 R Finger01
+    400048: Armature|Bip01 R Finger1
+    400050: Armature|Bip01 R Finger11
+    400052: Armature|Bip01 R Finger2
+    400054: Armature|Bip01 R Finger21
+    400056: Armature|Bip01 R Foot
+    400058: Armature|Bip01 R Forearm
+    400060: Armature|Bip01 R Hand
+    400062: Armature|Bip01 R Thigh
+    400064: Armature|Bip01 R Toe0
+    400066: Armature|Bip01 R UpperArm
+    400068: Armature|Bip01 Spine
+    400070: Armature|Bip01 Spine1
+    400072: Armature|Bip01 Spine2
+    400074: Armature|root
+    400076: Camera
+    400078: Lamp
+    400080: Lamp.001
+    400082: Lamp.002
+    400084: obj0
+    4300000: obj0
+    7400000: idle
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: obj0
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Armature|ArmatureAction
+      firstFrame: 0
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|root
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 L Thigh
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 L Thigh/Armature|Bip01 L Calf
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 L Thigh/Armature|Bip01 L Calf/Armature|Bip01 L Foot
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 L Thigh/Armature|Bip01 L Calf/Armature|Bip01 L Foot/Armature|Bip01
+          L Toe0
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 R Thigh
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 R Thigh/Armature|Bip01 R Calf
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 R Thigh/Armature|Bip01 R Calf/Armature|Bip01 R Foot
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 R Thigh/Armature|Bip01 R Calf/Armature|Bip01 R Foot/Armature|Bip01
+          R Toe0
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          Head
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm/Armature|Bip01
+          L Hand
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm/Armature|Bip01
+          L Hand/Armature|Bip01 L Finger0
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm/Armature|Bip01
+          L Hand/Armature|Bip01 L Finger0/Armature|Bip01 L Finger01
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm/Armature|Bip01
+          L Hand/Armature|Bip01 L Finger1
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm/Armature|Bip01
+          L Hand/Armature|Bip01 L Finger1/Armature|Bip01 L Finger11
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm/Armature|Bip01
+          L Hand/Armature|Bip01 L Finger2
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          L Clavicle/Armature|Bip01 L UpperArm/Armature|Bip01 L Forearm/Armature|Bip01
+          L Hand/Armature|Bip01 L Finger2/Armature|Bip01 L Finger21
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm/Armature|Bip01
+          R Hand
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm/Armature|Bip01
+          R Hand/Armature|Bip01 R Finger0
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm/Armature|Bip01
+          R Hand/Armature|Bip01 R Finger0/Armature|Bip01 R Finger01
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm/Armature|Bip01
+          R Hand/Armature|Bip01 R Finger1
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm/Armature|Bip01
+          R Hand/Armature|Bip01 R Finger1/Armature|Bip01 R Finger11
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm/Armature|Bip01
+          R Hand/Armature|Bip01 R Finger2
+        weight: 1
+      - path: Armature/Armature|root/Armature|Bip01/Armature|Bip01 Pelvis/Armature|Bip01
+          Spine/Armature|Bip01 Spine1/Armature|Bip01 Spine2/Armature|Bip01 Neck/Armature|Bip01
+          R Clavicle/Armature|Bip01 R UpperArm/Armature|Bip01 R Forearm/Armature|Bip01
+          R Hand/Armature|Bip01 R Finger2/Armature|Bip01 R Finger21
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Lamp.001
+        weight: 1
+      - path: Lamp.002
+        weight: 1
+      - path: obj0
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 

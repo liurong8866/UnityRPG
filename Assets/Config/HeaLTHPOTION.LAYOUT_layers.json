@@ -1,0 +1,431 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "ORIGIN": "Center", 
+                "RENDER STYLE": "Additive", 
+                "VISUAL SCALE": "0.5", 
+                "FRAMES HIGH": "1", 
+                "VISUAL QUOTA": "10", 
+                "V RATE": "0", 
+                "ROTATION TYPE": "Geometry", 
+                "IS LIGHT": "false", 
+                "TEXTURE": "media\\particles\\textures\\flash\\flash04.dds", 
+                "WIDTH": "10", 
+                "RENDER TYPE": "Billboard", 
+                "PARENTID": "-1", 
+                "FORWARD": "0,0,1", 
+                "SORTS": "false", 
+                "SORT INDEX": "0", 
+                "children": [], 
+                "DEPTH CHECK": "true", 
+                "VELOCITY SCALE": "0.5", 
+                "RIGHT": "1,0,0", 
+                "NAME": "Flashes", 
+                "DESCRIPTOR": "Particle", 
+                "FRAMES WIDE": "1", 
+                "SEGMENTS": "3", 
+                "TIME SCALE": "1", 
+                "LIFE TIME": "3", 
+                "UP": "0,1,0", 
+                "ID": "-3880436693794352675", 
+                "stackName": "PROPERTIES", 
+                "VISIBLE": "true", 
+                "LENGTH": "1", 
+                "MESH": "", 
+                "VELOCITY": "9999", 
+                "POSITION": "0,2,0", 
+                "U RATE": "0"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "ENABLE": "true", 
+                                "NAME": "Color17_clone7", 
+                                "PARENTID": "-3880436693794352675", 
+                                "POSITION": "0,0,0", 
+                                "COLOR OVER TIME": "0,0.501961,0.501961,0.501961,1,1,0,0,0,1", 
+                                "ID": "-3880436685204418083", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "ENABLE": "true", 
+                                "NAME": "Texture Rotate16_clone8", 
+                                "STARTING ROTATION": "1,0,360", 
+                                "ROTATION SPEED": "0,0", 
+                                "USE OWN ROTATION": "false", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Rotate", 
+                                "PARENTID": "-3880436693794352675", 
+                                "POSITION": "0,0,0", 
+                                "ID": "-3880436680909450787"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "ENABLE": "true", 
+                                "NAME": "Scale15_clone9", 
+                                "Z": "0,1", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "PARENTID": "-3880436693794352675", 
+                                "Y": "0,1", 
+                                "X": "2,0,0,0.2,15", 
+                                "POSITION": "0,0,0", 
+                                "FIXED": "true", 
+                                "ID": "-3880436676614483491"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "HEIGHT_": "1", 
+                                "ANGLE": "0,45", 
+                                "MAX INCREMENT": "0", 
+                                "ENABLED": "true", 
+                                "HEIGHT": "0,1", 
+                                "DELAY": "0,0", 
+                                "WIDTH": "0,1", 
+                                "DEPTH": "0,0", 
+                                "FIXED_": "true", 
+                                "RADIUS": "1", 
+                                "PARENTID": "-3880436693794352675", 
+                                "EMIT RATE": "0,10", 
+                                "PARTICLE LIFE": "1,0.2,0.4", 
+                                "ID": "-3880436672319516195", 
+                                "FIXED": "true", 
+                                "DEPTH_": "1", 
+                                "NO EXPIRATION": "false", 
+                                "MIN INCREMENT": "0", 
+                                "WIDTH_": "1", 
+                                "MIN RADIUS": "0,3", 
+                                "DIRECTION": "0,1,0", 
+                                "MAX DEVIATION": "0", 
+                                "NAME": "Emitter14_clone10", 
+                                "TYPE OF EMITTER": "SphereSurface", 
+                                "EMIT DURATION": "0,0.5", 
+                                "KEEP LOCAL": "true", 
+                                "STEP": "0,0.1", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "MAX RADIUS": "0,3", 
+                                "MASS": "0,1", 
+                                "SCALE ON LAUNCH": "0,0", 
+                                "VELOCITY": "0,0", 
+                                "POSITION": "0,0,0", 
+                                "NUM LOOPS": "0"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "ORIGIN": "Center", 
+                "RENDER STYLE": "Additive", 
+                "VISUAL SCALE": "0.4", 
+                "FRAMES HIGH": "1", 
+                "VISUAL QUOTA": "30", 
+                "V RATE": "0", 
+                "ROTATION TYPE": "Geometry", 
+                "IS LIGHT": "false", 
+                "TEXTURE": "media\\particles\\textures\\particle\\redparticle.dds", 
+                "WIDTH": "10", 
+                "RENDER TYPE": "Billboard", 
+                "PARENTID": "-1", 
+                "FORWARD": "0,0,1", 
+                "SORTS": "false", 
+                "SORT INDEX": "0", 
+                "children": [], 
+                "DEPTH CHECK": "true", 
+                "VELOCITY SCALE": "0.1", 
+                "RIGHT": "1,0,0", 
+                "NAME": "Burst Particles", 
+                "DESCRIPTOR": "Particle", 
+                "FRAMES WIDE": "1", 
+                "SEGMENTS": "3", 
+                "TIME SCALE": "1", 
+                "LIFE TIME": "3", 
+                "UP": "0,1,0", 
+                "ID": "-3880436668024548899", 
+                "stackName": "PROPERTIES", 
+                "VISIBLE": "true", 
+                "LENGTH": "1", 
+                "MESH": "", 
+                "VELOCITY": "9999", 
+                "POSITION": "0,1,0", 
+                "U RATE": "0"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Linear Force", 
+                                "ENABLE": "true", 
+                                "NAME": "Linear Force2", 
+                                "FORCES": "0,8,0", 
+                                "PARENTID": "-3880436668024548899", 
+                                "POSITION": "0,0,0", 
+                                "FORCE APPLICATION": "Add", 
+                                "ID": "-3880436659434614307", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Vortext", 
+                                "DIRECTION": "0,1,0", 
+                                "ENABLE": "true", 
+                                "NAME": "Vortext35_clone35", 
+                                "RATE": "3,0,10,0.656,7.379,1,2", 
+                                "PARENTID": "-3880436668024548899", 
+                                "POSITION": "0,0,0", 
+                                "ID": "-3880436655139647011", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "HEIGHT_": "1", 
+                                "ANGLE": "0,90", 
+                                "MAX INCREMENT": "0", 
+                                "ENABLED": "true", 
+                                "HEIGHT": "0,1", 
+                                "DELAY": "0,0", 
+                                "WIDTH": "0,1", 
+                                "DEPTH": "0,0", 
+                                "FIXED_": "true", 
+                                "RADIUS": "15", 
+                                "PARENTID": "-3880436668024548899", 
+                                "EMIT RATE": "0,10", 
+                                "PARTICLE LIFE": "1,0.8,1.2", 
+                                "ID": "-3880436650844679715", 
+                                "FIXED": "false", 
+                                "DEPTH_": "1", 
+                                "NO EXPIRATION": "false", 
+                                "MIN INCREMENT": "0", 
+                                "WIDTH_": "1", 
+                                "MIN RADIUS": "0,2", 
+                                "DIRECTION": "0,1,0", 
+                                "MAX DEVIATION": "0", 
+                                "NAME": "Emitter37_clone37", 
+                                "TYPE OF EMITTER": "Point", 
+                                "EMIT DURATION": "0,0", 
+                                "KEEP LOCAL": "true", 
+                                "STEP": "0,0.1", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "MAX RADIUS": "0,5", 
+                                "MASS": "0,1", 
+                                "SCALE ON LAUNCH": "1,0.5,1", 
+                                "VELOCITY": "0,-20", 
+                                "POSITION": "0,2,0", 
+                                "NUM LOOPS": "0"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "ENABLE": "true", 
+                                "NAME": "Scale3", 
+                                "Z": "0,1", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "PARENTID": "-3880436668024548899", 
+                                "Y": "0,1", 
+                                "X": "2,0,1,0.5,1,1,0", 
+                                "POSITION": "0,0,4", 
+                                "FIXED": "true", 
+                                "ID": "-3880436646549712419"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "ORIGIN": "Center", 
+                "RENDER STYLE": "Additive", 
+                "VISUAL SCALE": "1", 
+                "FRAMES HIGH": "1", 
+                "VISUAL QUOTA": "10", 
+                "V RATE": "0", 
+                "ROTATION TYPE": "Geometry", 
+                "IS LIGHT": "false", 
+                "TEXTURE": "media\\particles\\textures\\glow\\glowred.dds", 
+                "WIDTH": "10", 
+                "RENDER TYPE": "Billboard Up Camera", 
+                "PARENTID": "-1", 
+                "FORWARD": "0,0,1", 
+                "SORTS": "false", 
+                "SORT INDEX": "0", 
+                "children": [], 
+                "DEPTH CHECK": "true", 
+                "VELOCITY SCALE": "1", 
+                "RIGHT": "1,0,0", 
+                "NAME": "Rising Glow", 
+                "DESCRIPTOR": "Particle", 
+                "FRAMES WIDE": "1", 
+                "SEGMENTS": "3", 
+                "TIME SCALE": "1", 
+                "LIFE TIME": "3", 
+                "UP": "0,1,0", 
+                "ID": "-3880436642254745123", 
+                "stackName": "PROPERTIES", 
+                "VISIBLE": "true", 
+                "LENGTH": "1", 
+                "MESH": "", 
+                "VELOCITY": "9999", 
+                "POSITION": "0,0,0", 
+                "U RATE": "0"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "HEIGHT_": "1", 
+                                "ANGLE": "0,0", 
+                                "MAX INCREMENT": "0", 
+                                "ENABLED": "true", 
+                                "HEIGHT": "0,1", 
+                                "DELAY": "0,0", 
+                                "WIDTH": "0,1", 
+                                "DEPTH": "0,0", 
+                                "FIXED_": "true", 
+                                "RADIUS": "1", 
+                                "PARENTID": "-3880436642254745123", 
+                                "EMIT RATE": "0,10", 
+                                "PARTICLE LIFE": "0,0.7", 
+                                "ID": "-3880436633664810531", 
+                                "FIXED": "true", 
+                                "DEPTH_": "1", 
+                                "NO EXPIRATION": "false", 
+                                "MIN INCREMENT": "0", 
+                                "WIDTH_": "1", 
+                                "MIN RADIUS": "0,3", 
+                                "DIRECTION": "0,1,0", 
+                                "MAX DEVIATION": "0", 
+                                "NAME": "Emitter14_clone14", 
+                                "TYPE OF EMITTER": "Point", 
+                                "EMIT DURATION": "0,0", 
+                                "KEEP LOCAL": "true", 
+                                "STEP": "0,0.1", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "MAX RADIUS": "0,3", 
+                                "MASS": "0,1", 
+                                "SCALE ON LAUNCH": "0,3", 
+                                "VELOCITY": "1,0.5,3.8", 
+                                "POSITION": "0,0.1,0", 
+                                "NUM LOOPS": "0"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "ENABLE": "true", 
+                                "NAME": "Color17_clone17", 
+                                "PARENTID": "-3880436642254745123", 
+                                "POSITION": "0,0,0", 
+                                "COLOR OVER TIME": "0,0.364706,0.364706,0.364706,1,1,0,0,0,1", 
+                                "ID": "-3880436629369843235", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

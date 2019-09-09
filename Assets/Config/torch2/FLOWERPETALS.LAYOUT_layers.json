@@ -1,0 +1,140 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "ORIGIN": "Bottom Right", 
+                "FRAMES HIGH": "4", 
+                "NAME": "Falling Petals2", 
+                "VISIBLE": true, 
+                "FRAMES WIDE": "5", 
+                "RENDER STYLE": "Alpha", 
+                "TEXTURE": "MEDIA/PARTICLES/TEXTURES/SEQUENCE/PETAL_5X4.DDS", 
+                "ID": "-1316837398087311838", 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "PARENTID": "-1", 
+                "QUALITY": "MEDIUM", 
+                "children": []
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "ENABLE": false, 
+                                "NAME": "Scale11", 
+                                "PARENTID": "-1316837398087311838", 
+                                "Y": "2,0,0,0.2,1,0.5,0.3,0.7,1,1,0.5", 
+                                "FIXED": true, 
+                                "children": [], 
+                                "ID": "-2031312757042087656"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Linear Force", 
+                                "NAME": "Linear Force7", 
+                                "PARENTID": "-1316837398087311838", 
+                                "FORCESX": 0.3, 
+                                "FORCESZ": 0.2, 
+                                "children": [], 
+                                "FORCESY": -0.4, 
+                                "ID": "-1498252557503244002"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Vortex", 
+                                "RATE": "0,0.4", 
+                                "NAME": "Vortex10", 
+                                "PARENTID": "-1316837398087311838", 
+                                "children": [], 
+                                "ID": "894611020128968929"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Animation", 
+                                "ANIMATION SPEED": "1,0,30", 
+                                "NAME": "Texture Animation", 
+                                "PARENTID": "-1316837398087311838", 
+                                "children": [], 
+                                "ID": "-7569485164127077629"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Rotate", 
+                                "NAME": "Texture Rotate8", 
+                                "PARENTID": "-1316837398087311838", 
+                                "ROTATION SPEED": "0,200", 
+                                "STARTING ROTATION": "1,0,6", 
+                                "children": [], 
+                                "ID": "-3627820458363565067"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color9", 
+                                "PARENTID": "-1316837398087311838", 
+                                "COLOR OVER TIME": "0,0.517647,0.490196,0.160784,0,0.15,0.517647,0.490196,0.160784,1,0.85,0.752941,0.372549,0.239216,1,1,0.498039,0.333333,0.25098,0", 
+                                "children": [], 
+                                "ID": "-8993910791631782759"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": -1.1, 
+                                "POSITIONX": 0.5, 
+                                "POSITIONY": 5.6, 
+                                "ANGLE": "1,90,100", 
+                                "NAME": "Emitter6", 
+                                "TYPE OF EMITTER": "SphereSurface", 
+                                "ID": "-2230292412166381519", 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "RADIUS": 1.5, 
+                                "SCALE ON LAUNCH": "1,0.2,0.35", 
+                                "PARENTID": "-1316837398087311838", 
+                                "EMIT RATE": "1,0,1", 
+                                "VELOCITY": "0,0.5", 
+                                "HEIGHT": "0,1.5", 
+                                "PARTICLE LIFE": "0,5", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

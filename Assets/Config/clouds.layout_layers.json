@@ -1,0 +1,135 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "FRAMES HIGH": "2", 
+                "NAME": "Particle0", 
+                "VISIBLE": true, 
+                "FRAMES WIDE": "2", 
+                "RENDER STYLE": "Modulate", 
+                "IS LIGHT": true, 
+                "TEXTURE": "media/particles/textures/smoke/clouds_2x2.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER TYPE": "Billboard Self", 
+                "PARENTID": "-1", 
+                "NO CULLING": true, 
+                "ID": "2235340194583155166"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color2", 
+                                "PARENTID": "2235340194583155166", 
+                                "COLOR OVER TIME": "0,1,1,1,1,0.2,0.137255,0.137255,0.137255,1,0.8,0.137255,0.137255,0.137255,1,1,1,1,1,1", 
+                                "ID": "2235340198878122462", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 2.0, 
+                                "ANGLE": "0,0", 
+                                "HEIGHT": "0,1.6", 
+                                "WIDTH": "1,0.8,1.2", 
+                                "DIRECTIONY": 0.0, 
+                                "DIRECTIONX": 0.447214, 
+                                "PARENTID": "2235340194583155166", 
+                                "EMIT RATE": "1,0,0.7", 
+                                "PARTICLE LIFE": "0,60", 
+                                "DEPTH_": 40.0, 
+                                "children": [], 
+                                "HEIGHT_": 0.0, 
+                                "WIDTH_": 75.0, 
+                                "NAME": "Emitter1", 
+                                "TYPE OF EMITTER": "Box", 
+                                "DIRECTIONZ": 0.894427, 
+                                "ID": "2235340203173089758", 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "SCALE ON LAUNCH": "1,10,20", 
+                                "VELOCITY": "1,0.5,1"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "NAME": "Scale0", 
+                                "PARENTID": "2235340194583155166", 
+                                "X": "2,0,1,0.8,1,1,1.5", 
+                                "FIXED": true, 
+                                "ID": "2235340207468057054", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 28.0, 
+                                "POSITIONX": 4.5, 
+                                "POSITIONY": 2.0, 
+                                "ANGLE": "0,0", 
+                                "HEIGHT": "0,1.6", 
+                                "WIDTH": "1,0.8,1.2", 
+                                "DIRECTIONY": 0.0, 
+                                "DIRECTIONX": 0.447214, 
+                                "PARENTID": "2235340194583155166", 
+                                "EMIT RATE": "0,5", 
+                                "PARTICLE LIFE": "0,30", 
+                                "EMIT DURATION": "0,0", 
+                                "DEPTH_": 40.0, 
+                                "children": [], 
+                                "HEIGHT_": 0.0, 
+                                "WIDTH_": 75.0, 
+                                "NAME": "init", 
+                                "TYPE OF EMITTER": "Box", 
+                                "DIRECTIONZ": 0.894427, 
+                                "ID": "2235340211763024350", 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "SCALE ON LAUNCH": "1,10,20", 
+                                "VELOCITY": "1,0.5,1", 
+                                "NUM LOOPS": "1"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

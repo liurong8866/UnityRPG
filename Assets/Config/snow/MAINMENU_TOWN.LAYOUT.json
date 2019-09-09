@@ -1,0 +1,1104 @@
+{
+    "stackName": "Layout", 
+    "COUNT": "41", 
+    "VERSION": "4", 
+    "children": [
+        {
+            "stackName": "OBJECTS", 
+            "children": [
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Group", 
+                            "NAME": "Layouts", 
+                            "PARENTID": "-1", 
+                            "children": [], 
+                            "ID": "-8484133365872651809"
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Group", 
+                            "NAME": "Properties", 
+                            "PARENTID": "-1", 
+                            "children": [], 
+                            "ID": "8012869433581375966"
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 1.37081, 
+                                            "NODE NAME": "Camera Target", 
+                                            "POSITIONX": 11.872, 
+                                            "POSITIONY": 1.35, 
+                                            "NAME": "Camera Target", 
+                                            "RIGHTX": -0.996195, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -0.0871558, 
+                                            "RIGHTZ": 0.0871558, 
+                                            "ID": "8012869442171310558", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Property Node", 
+                                            "PARENTID": "8012869433581375966", 
+                                            "FORWARDZ": -0.996195, 
+                                            "TYPE": "Camera Target", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Timeline", 
+                                            "LOOPS": true, 
+                                            "NAME": "CameraAnim", 
+                                            "PARENTID": "8012869433581375966", 
+                                            "DURATION": 20.0, 
+                                            "DEFAULT INTERPOLATION TYPE": "Spline", 
+                                            "children": [
+                                                {
+                                                    "stackName": "TIMELINEDATA", 
+                                                    "children": [
+                                                        {
+                                                            "stackName": "TIMELINEOBJECT", 
+                                                            "children": [
+                                                                {
+                                                                    "stackName": "TIMELINEOBJECTPROPERTY", 
+                                                                    "children": [
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.0, 
+                                                                            "children": [], 
+                                                                            "VALUE": "19.2256,2.43,-3.58335", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.241071, 
+                                                                            "children": [], 
+                                                                            "VALUE": "19.2356,2.45,-3.55335", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.491071, 
+                                                                            "children": [], 
+                                                                            "VALUE": "19.236,2.40086,-3.55207", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.72449, 
+                                                                            "children": [], 
+                                                                            "VALUE": "19.2339,2.44665,-3.55838", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.875, 
+                                                                            "children": [], 
+                                                                            "VALUE": "19.2302,2.50272,-3.56966", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 1.0, 
+                                                                            "children": [], 
+                                                                            "VALUE": "19.2256,2.43,-3.58335", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }
+                                                                    ], 
+                                                                    "OBJECTPROPERTYNAME": "POSITION"
+                                                                }
+                                                            ], 
+                                                            "OBJECTID": "8012869437876343262"
+                                                        }
+                                                    ], 
+                                                    "ID": "8591675892538871608"
+                                                }
+                                            ], 
+                                            "ID": "8591675892538871608"
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": -3.58335, 
+                                            "NODE NAME": "Camera", 
+                                            "POSITIONX": 19.2256, 
+                                            "POSITIONY": 2.43, 
+                                            "NAME": "Camera", 
+                                            "RIGHTX": 0.898794, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": -0.0, 
+                                            "FORWARDX": -0.438371, 
+                                            "RIGHTZ": 0.438371, 
+                                            "ID": "8012869437876343262", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Property Node", 
+                                            "PARENTID": "8012869433581375966", 
+                                            "FORWARDZ": 0.898794, 
+                                            "TYPE": "Camera Position", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Timeline", 
+                                            "LOOPS": true, 
+                                            "NAME": "CameraTargetAnim", 
+                                            "PARENTID": "8012869433581375966", 
+                                            "DURATION": 20.0, 
+                                            "DEFAULT INTERPOLATION TYPE": "Spline", 
+                                            "children": [
+                                                {
+                                                    "stackName": "TIMELINEDATA", 
+                                                    "children": [
+                                                        {
+                                                            "stackName": "TIMELINEOBJECT", 
+                                                            "children": [
+                                                                {
+                                                                    "stackName": "TIMELINEOBJECTPROPERTY", 
+                                                                    "children": [
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.0, 
+                                                                            "children": [], 
+                                                                            "VALUE": "11.872,1.35,1.37081", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.122449, 
+                                                                            "children": [], 
+                                                                            "VALUE": "11.8541,1.292,1.34479", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.252551, 
+                                                                            "children": [], 
+                                                                            "VALUE": "11.852,1.33,1.34081", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.468112, 
+                                                                            "children": [], 
+                                                                            "VALUE": "11.8872,1.39453,1.39006", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.674745, 
+                                                                            "children": [], 
+                                                                            "VALUE": "11.9574,1.40536,1.48886", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 0.827806, 
+                                                                            "children": [], 
+                                                                            "VALUE": "11.9523,1.35067,1.48202", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }, 
+                                                                        {
+                                                                            "stackName": "TIMELINEPOINT", 
+                                                                            "TIMEPERCENT": 1.0, 
+                                                                            "children": [], 
+                                                                            "VALUE": "11.872,1.35,1.37081", 
+                                                                            "INTERPOLATION": "Spline"
+                                                                        }
+                                                                    ], 
+                                                                    "OBJECTPROPERTYNAME": "POSITION"
+                                                                }
+                                                            ], 
+                                                            "OBJECTID": "8012869442171310558"
+                                                        }
+                                                    ], 
+                                                    "ID": "4345857850986601110"
+                                                }
+                                            ], 
+                                            "ID": "4345857850986601110"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Group", 
+                            "NAME": "AnimatedBackgroundStuff", 
+                            "PARENTID": "-1", 
+                            "children": [], 
+                            "ID": "-5289246170875047347"
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 1.36999, 
+                                            "POSITIONX": 7.32002, 
+                                            "POSITIONY": 0.0, 
+                                            "NAME": "Generic Model", 
+                                            "POLY COUNT": "2263", 
+                                            "RIGHTX": -0.0348998, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -0.999391, 
+                                            "RIGHTZ": 0.999391, 
+                                            "ID": "5435313655152141921", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Generic Model", 
+                                            "ANIMATION": "MainMenu_Idle", 
+                                            "FILE": "MEDIA/MODELS/NPCS/VANQUISHERS/MAINMENU/HUM_VANQUISHER_01.MESH", 
+                                            "PARENTID": "-5289246170875047347", 
+                                            "FORWARDZ": -0.0348998, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 0.469996, 
+                                            "POSITIONX": 4.72002, 
+                                            "POSITIONY": -0.04, 
+                                            "NAME": "Generic Model_clone", 
+                                            "POLY COUNT": "1902", 
+                                            "RIGHTX": -3.57628e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": 1.0, 
+                                            "RIGHTZ": -1.0, 
+                                            "ID": "6458650029585954590", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Generic Model", 
+                                            "ANIMATION": "MainMenu_Idle", 
+                                            "FILE": "MEDIA/MODELS/NPCS/HUM_M/MAINMENU/BARTENDER.MESH", 
+                                            "PARENTID": "-5289246170875047347", 
+                                            "FORWARDZ": -3.57628e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Group", 
+                            "NAME": "BaseInn", 
+                            "PARENTID": "-1", 
+                            "children": [], 
+                            "ID": "8012869455056212446"
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 1.82, 
+                                            "BAKE": false, 
+                                            "POSITIONX": 2.61, 
+                                            "POSITIONY": 3.32, 
+                                            "Z": 0.6, 
+                                            "NAME": "Room Piece1_clone278014", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": 1.0, 
+                                            "RIGHTZ": -1.0, 
+                                            "ID": "3854613561896079839", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Room Piece", 
+                                            "VISUAL": "3", 
+                                            "PARENTID": "8012869455056212446", 
+                                            "Y": 0.6, 
+                                            "X": 0.6, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "GUID": "2233463449774920159", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Room Piece", 
+                                            "POSITIONX": -1.0, 
+                                            "POSITIONY": 0.0, 
+                                            "NAME": "Room Piece1_clone354111", 
+                                            "POSITIONZ": 1.99, 
+                                            "PARENTID": "8012869455056212446", 
+                                            "GUID": "-6994367630759095841", 
+                                            "children": [], 
+                                            "ID": "-3273682348937506337"
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Room Piece", 
+                                            "POSITIONX": -1.0, 
+                                            "POSITIONY": 0.0, 
+                                            "NAME": "Room Piece1_clone354140", 
+                                            "POSITIONZ": 1.99, 
+                                            "PARENTID": "8012869455056212446", 
+                                            "GUID": "-6554623727666130465", 
+                                            "children": [], 
+                                            "ID": "-2028070588180000289"
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": -0.81, 
+                                            "POSITIONX": 11.07, 
+                                            "POSITIONY": 5.30999, 
+                                            "PARENTID": "8012869455056212446", 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": 1.0, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "VISUAL": "3", 
+                                            "UPZ": 0.0, 
+                                            "UPX": 0.0, 
+                                            "UPY": -1.0, 
+                                            "Y": 0.8, 
+                                            "X": 0.8, 
+                                            "GUID": "-2600884187307109921", 
+                                            "ID": "5578832533676560863", 
+                                            "Z": 0.8, 
+                                            "NAME": "Room Piece1_clone277658", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "children": [], 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Room Piece"
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 2.39, 
+                                            "POSITIONX": 8.12, 
+                                            "POSITIONY": 4.32, 
+                                            "NAME": "Room Piece1_clone278040", 
+                                            "Z": 0.8, 
+                                            "UPY": -1.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": 0.0, 
+                                            "ID": "-257629860939230753", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Room Piece", 
+                                            "VISUAL": "1", 
+                                            "UPZ": 0.0, 
+                                            "UPX": -0.0, 
+                                            "PARENTID": "8012869455056212446", 
+                                            "Y": 0.8, 
+                                            "X": 0.8, 
+                                            "FORWARDZ": -1.0, 
+                                            "GUID": "-2600884187307109921", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 8.19002, 
+                                            "BAKE": false, 
+                                            "POSITIONX": 9.47998, 
+                                            "POSITIONY": 0.0300008, 
+                                            "Z": 0.5, 
+                                            "NAME": "Room Piece1_clone278147", 
+                                            "RIGHTX": -0.857167, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": 0.515038, 
+                                            "RIGHTZ": -0.515038, 
+                                            "ID": "6991112295652266463", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Room Piece", 
+                                            "VISUAL": "1", 
+                                            "PARENTID": "8012869455056212446", 
+                                            "Y": 0.5, 
+                                            "X": 0.5, 
+                                            "FORWARDZ": -0.857167, 
+                                            "GUID": "2233463449774920159", 
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Group", 
+                            "NAME": "Particles", 
+                            "PARENTID": "-1", 
+                            "children": [], 
+                            "ID": "-7255881300284796449"
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": -1.13, 
+                                            "POSITIONX": 2.40001, 
+                                            "POSITIONY": 2.32, 
+                                            "NAME": "Layout Link3_clone266169", 
+                                            "LAYOUT FILE": "MEDIA/LEVELSETS/PROPS/COMMON/CANDLEWITHCORONANOSMOKE.LAYOUT", 
+                                            "ID": "-4408810469449657889", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Layout Link", 
+                                            "PARENTID": "-7255881300284796449", 
+                                            "Y": 0.5, 
+                                            "X": 0.5, 
+                                            "Z": 0.5, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 2.51, 
+                                            "POSITIONX": 5.49001, 
+                                            "POSITIONY": 2.08, 
+                                            "NAME": "Layout Link3", 
+                                            "LAYOUT FILE": "MEDIA/LEVELSETS/PROPS/COMMON/CANDLEWITHCORONANOSMOKE.LAYOUT", 
+                                            "ID": "-5576224937717263905", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Layout Link", 
+                                            "PARENTID": "-7255881300284796449", 
+                                            "Y": 0.5, 
+                                            "X": 0.5, 
+                                            "Z": 0.5, 
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Group", 
+                            "POSITIONX": 2.5, 
+                            "POSITIONY": 0.0, 
+                            "NAME": "Lights", 
+                            "POSITIONZ": -1.0, 
+                            "PARENTID": "-1", 
+                            "children": [], 
+                            "ID": "-5843608242753695265"
+                        }, 
+                        {
+                            "stackName": "CHILDREN", 
+                            "children": [
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 8.08999, 
+                                            "POSITIONX": 5.27008, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone266040", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 0.7, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "-7557150346436537889", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 0.7, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": -4.7, 
+                                            "POSITIONX": -2.44991, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": 180.0, 
+                                            "NAME": "Light3_clone266983", 
+                                            "BRIGHTNESS": "4", 
+                                            "RIGHTX": -1.0, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 5.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": 3.25841e-07, 
+                                            "RIGHTZ": -3.25841e-07, 
+                                            "ID": "-7812431588919143969", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_QUARTER_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 5.0, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.0, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "POSITIONX": 8.02, 
+                                            "POSITIONY": 0.0, 
+                                            "NAME": "Light3_clone575374", 
+                                            "POSITIONZ": 4.45, 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "FILE": "MEDIA/LIGHTS/OUTDOOR/SHADOWDAPPLE_01.MESH", 
+                                            "children": [], 
+                                            "ID": "-4158123721294409249"
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 8.31999, 
+                                            "POSITIONX": 8.2501, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone266087", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 0.4, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "-6217550046814137889", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 0.4, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 8.51, 
+                                            "POSITIONX": -3.34, 
+                                            "POSITIONY": 1.5, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone156347", 
+                                            "BRIGHTNESS": "3", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 2.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "5515831672738877919", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/CATACOMB_RESKIN_01/CATACOMBS_GRADIENT_04.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 2.0, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 5.16, 
+                                            "POSITIONX": 12.8001, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone283950", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 0.3, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "-3353977406461242913", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 0.3, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 7.29999, 
+                                            "POSITIONX": 10.4501, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone266289", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "1212227979190407647", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 7.95999, 
+                                            "POSITIONX": 4.17999, 
+                                            "POSITIONY": -0.1, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone156330", 
+                                            "BRIGHTNESS": "2", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 2.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "5515831664148943327", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/CATACOMB_RESKIN_01/CATACOMBS_GRADIENT_04.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 2.0, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 2.41, 
+                                            "POSITIONX": 4.57008, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone265903", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 0.3, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "6193347645397668319", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 0.3, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 8.99001, 
+                                            "POSITIONX": -4.05997, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone577984", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 2.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "-6170015543817334305", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/OUTDOOR/SHADOW_DISTURBED_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 2.0, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 8.42999, 
+                                            "POSITIONX": 8.09, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone578070", 
+                                            "BRIGHTNESS": "3", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 1.8, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "-4021335257799126561", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/CATACOMB_RESKIN_01/CATACOMBS_GRADIENT_04.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 1.8, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": -5.12999, 
+                                            "POSITIONX": 16.1001, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": 90.0, 
+                                            "NAME": "Light3_clone267024", 
+                                            "BRIGHTNESS": "4", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 5.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": 1.0, 
+                                            "RIGHTZ": -1.0, 
+                                            "ID": "-6881153830127463969", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_QUARTER_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 5.0, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 2.52, 
+                                            "POSITIONX": -1.05, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone277465", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 2.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "2303565794585940447", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/LAVA/LAVA_GRADIENT_03.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 2.0, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 2.65, 
+                                            "POSITIONX": 9.19, 
+                                            "POSITIONY": 0.0, 
+                                            "NAME": "middle_light_dapples", 
+                                            "SCALE X": 0.5, 
+                                            "SCALE Z": 0.5, 
+                                            "ID": "-4158123712704474657", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/OUTDOOR/LIGHTDAPPLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 7.19999, 
+                                            "POSITIONX": 10.6501, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone265959", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "8976056947886133727", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 1.21, 
+                                            "POSITIONX": 4.95009, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone265882", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 0.3, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "6193347636807733727", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 0.3, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 11.4, 
+                                            "POSITIONX": 15.3501, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": 1.02453e-05, 
+                                            "NAME": "Light3_clone266882", 
+                                            "BRIGHTNESS": "5", 
+                                            "SCALE X": 5.0, 
+                                            "SCALE Z": 5.0, 
+                                            "ID": "6821841814823047647", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_QUARTER_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SHADOW": true, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": -0.14, 
+                                            "POSITIONX": 4.60009, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone265791", 
+                                            "BRIGHTNESS": "5", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 0.3, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "-201815717263371809", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/SHADOW_CIRCLE_01.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 0.3, 
+                                            "SHADOW": true, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }, 
+                                {
+                                    "stackName": "BASEOBJECT", 
+                                    "children": [
+                                        {
+                                            "POSITIONZ": 0.49, 
+                                            "POSITIONX": 2.51, 
+                                            "POSITIONY": 0.0, 
+                                            "ANGLE": -90.0, 
+                                            "NAME": "Light3_clone578070", 
+                                            "RIGHTX": -1.19209e-07, 
+                                            "RIGHTY": 0.0, 
+                                            "SCALE Z": 3.0, 
+                                            "FORWARDY": 0.0, 
+                                            "FORWARDX": -1.0, 
+                                            "RIGHTZ": 1.0, 
+                                            "ID": "-5747366509934029244", 
+                                            "stackName": "PROPERTIES", 
+                                            "DESCRIPTOR": "Light", 
+                                            "FILE": "MEDIA/LIGHTS/CATACOMB_RESKIN_01/CATACOMBS_CIRCLE_03.MESH", 
+                                            "PARENTID": "-5843608242753695265", 
+                                            "SCALE X": 3.0, 
+                                            "FORWARDZ": -1.19209e-07, 
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "POSITIONZ": 1.4635, 
+                            "POSITIONX": 12.6205, 
+                            "POSITIONY": 1.075, 
+                            "NAME": "Player Start", 
+                            "RIGHTX": -0.275638, 
+                            "RIGHTY": 0.0, 
+                            "FORWARDY": 0.0, 
+                            "FORWARDX": 0.961262, 
+                            "RIGHTZ": -0.961262, 
+                            "ID": "8012869446466277854", 
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Property Node", 
+                            "PARENTID": "-1", 
+                            "FORWARDZ": -0.275638, 
+                            "NODE NAME": "Player Start", 
+                            "children": []
+                        }
+                    ]
+                }, 
+                {
+                    "stackName": "BASEOBJECT", 
+                    "children": [
+                        {
+                            "POSITIONZ": 0.1568, 
+                            "NODE NAME": "Property Node0", 
+                            "POSITIONX": 11.6464, 
+                            "POSITIONY": 1.075, 
+                            "NAME": "Property Node0", 
+                            "RIGHTX": -0.848048, 
+                            "RIGHTY": 0.0, 
+                            "FORWARDY": 0.0, 
+                            "FORWARDX": 0.529919, 
+                            "RIGHTZ": -0.529919, 
+                            "ID": "8012869450761245150", 
+                            "stackName": "PROPERTIES", 
+                            "DESCRIPTOR": "Property Node", 
+                            "PARENTID": "-1", 
+                            "FORWARDZ": -0.848048, 
+                            "TYPE": "Point of Interest", 
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

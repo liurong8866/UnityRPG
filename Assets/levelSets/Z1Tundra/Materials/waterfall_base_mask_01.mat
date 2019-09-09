@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: waterfall_base_mask_01
+  m_Shader: {fileID: 4800000, guid: 049ea461161464b4d9950b88d7df13e3, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 2af7468d843784c0883794193f414f6f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: 86314daeb15ae40148837accab0ae197, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask1
+        second:
+          m_Texture: {fileID: 2800000, guid: 51215ecc51efa46488153649047f5cca, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Mask2
+        second:
+          m_Texture: {fileID: 2800000, guid: 40343e143e2fe48b9982287cedd8e0a3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _UVAnimX
+        second: 0
+      data:
+        first:
+          name: _UVAnimY
+        second: .300000012
+      data:
+        first:
+          name: _UVAnimX1
+        second: .0599999987
+      data:
+        first:
+          name: _UVAnimY1
+        second: 0
+      data:
+        first:
+          name: _UVAnimX2
+        second: -.0299999993
+      data:
+        first:
+          name: _UVAnimY2
+        second: 0
+      data:
+        first:
+          name: _UVAnimX3
+        second: 0
+      data:
+        first:
+          name: _UVAnimY3
+        second: .600000024
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}

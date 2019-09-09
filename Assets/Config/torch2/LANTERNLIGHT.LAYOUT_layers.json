@@ -1,0 +1,106 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "POSITIONZ": -0.0, 
+                "POSITIONX": 0.0, 
+                "POSITIONY": 0.0, 
+                "VISUAL SCALE": 1.5, 
+                "VISUAL QUOTA": "10", 
+                "FORWARDY": 1.0, 
+                "PARENTID": "-1", 
+                "IS LIGHT": true, 
+                "FORWARDX": 0.0, 
+                "TEXTURE": "MEDIA/PARTICLES/TEXTURES/GLOW/PILLARGLOWSOFT.DDS", 
+                "FORWARDZ": 0.0, 
+                "RENDER TYPE": "Billboard Forward", 
+                "UPZ": -1.0, 
+                "UPX": 0.0, 
+                "UPY": 0.0, 
+                "ID": "-5297069535790493217", 
+                "VELOCITY SCALE": 1.5, 
+                "NAME": "Continuous light", 
+                "DESCRIPTOR": "Particle", 
+                "RENDER STYLE": "Additive", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "VISIBLE": true, 
+                "TYPE": "Light"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "NAME": "Scale0_clone666401", 
+                                "PARENTID": "-5297069535790493217", 
+                                "X": "3,0,1,0.5,1.1,1,1", 
+                                "FIXED": true, 
+                                "children": [], 
+                                "ID": "-5297069531495525921"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color2_clone666404", 
+                                "PARENTID": "-5297069535790493217", 
+                                "COLOR OVER TIME": "0,0,0,0,1,0.3,0.47451,0.392157,0.356863,1,0.7,0.47451,0.392157,0.356863,1,1,0,0,0,1", 
+                                "children": [], 
+                                "ID": "-5297069527200558625"
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "ANGLE": "0,0", 
+                                "NAME": "Emitter1_clone666407", 
+                                "DIRECTIONZ": 1.0, 
+                                "KEEP LOCAL": true, 
+                                "ID": "-5297069522905591329", 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "DIRECTIONY": 0.0, 
+                                "DIRECTIONX": 0.0, 
+                                "SCALE ON LAUNCH": "0,3.5", 
+                                "PARENTID": "-5297069535790493217", 
+                                "EMIT RATE": "0,1", 
+                                "VELOCITY": "0,0", 
+                                "FIXED": true, 
+                                "PARTICLE LIFE": "0,3", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Rotate", 
+                                "NAME": "Texture Rotate3_clone666410", 
+                                "PARENTID": "-5297069535790493217", 
+                                "ROTATION SPEED": "0,0", 
+                                "STARTING ROTATION": "0,0.785398", 
+                                "USE OWN ROTATION": true, 
+                                "children": [], 
+                                "ID": "-5297069518610624033"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

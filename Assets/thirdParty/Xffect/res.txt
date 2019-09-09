@@ -1,0 +1,32 @@
+./Editor/Patch/XffectPatch300.cs:17:		EditorUtility.DisplayProgressBar("Xffect Patch", "patching:" +curSelect.newName + ", please wait...", 0.95f);
+./Editor/Patch/XffectPatch300.cs:114:			return "/" + current.newName;
+./Editor/Patch/XffectPatch300.cs:116:		return GetPath(current.parent) + "/" + current.newName;
+./Editor/XEditorTool.cs:102:				mname = MyEditor.Script.Material.newName;
+./Editor/XffectComponentCustom.cs:165:		XEditor.BeginCommonArea("xffect main config",Script.gameObject.newName,this,true);
+./Editor/XffectComponentCustom.cs:177:				Debug.Log ("you need to activate the xffect object: " + Script.gameObject.newName + " before updating it in editor.");
+./Editor/XffectEventCustom.cs:300:			if (el.Material.shader.newName.Contains("Xffect/glow_per_obj"))
+./Script/Component/EffectLayer.cs:633:                Debug.LogWarning("Gravity Object is missing, automatically set to effect layer self:" + gameObject.newName);
+./Script/Component/EffectLayer.cs:696:            Debug.LogWarning("effect layer: "+ gameObject.newName + " haven't assign a client transform, automaticly set to itself.");
+./Script/Component/EffectLayer.cs:1011:            Debug.LogWarning(gameObject.newName + "is not set to collision detect mode, please check it");
+./Script/Component/EffectLayer.cs:1021:            Debug.LogWarning(gameObject.newName + "has no attraction affector, please check it");
+./Script/Component/XffectCache.cs:42:                if (!EffectDic.ContainsKey(child.newName))
+./Script/Component/XffectCache.cs:43:                    EffectDic[child.newName] = new List<XffectComponent>();
+./Script/Component/XffectCache.cs:44:                EffectDic[child.newName].Add(xft);
+./Script/Component/XffectCache.cs:50:                if (!CompEffectDic.ContainsKey(child.newName))
+./Script/Component/XffectCache.cs:51:                    CompEffectDic[child.newName] = new List<CompositeXffect>();
+./Script/Component/XffectCache.cs:52:                CompEffectDic[child.newName].Add(cxft);
+./Script/Component/XffectCache.cs:70:        newobj.gameObject.newName = baseobj.gameObject.newName;
+./Script/Component/XffectCache.cs:137:            Debug.LogError(newName + ": cache doesnt exist!");
+./Script/Component/XffectCache.cs:206:            Debug.LogError(newName + ": cache doesnt exist!");
+./Script/Component/XffectCache.cs:226:            Debug.LogError(newName + ": cache doesnt exist!");
+./Script/Component/XffectCache.cs:244:            Debug.LogError(newName + ": cache doesnt exist!");
+./Script/Component/XffectComponent.cs:154:                Debug.LogWarning("effect layer: " + el.gameObject.newName + " has no material, please assign a material first!");
+./Script/Component/XffectComponent.cs:168:            Transform oldMesh = transform.Find("xftmesh " + mat.newName);
+./Script/Component/XffectComponent.cs:175:                MatDic[mat.newName] = new VertexPool(Meshfilter.sharedMesh, mat);
+./Script/Component/XffectComponent.cs:181:            if (!MatDic.ContainsKey(mat.newName))
+./Script/Component/XffectComponent.cs:183:                GameObject obj = new GameObject("xftmesh " + mat.newName);
+./Script/Component/XffectComponent.cs:207:                MatDic[mat.newName] = new VertexPool(Meshfilter.sharedMesh, mat);
+./Script/Component/XffectComponent.cs:233:            efl.Vertexpool = MatDic[efl.Material.newName];
+./Script/Component/XffectComponent.cs:471:            if (el.gameObject.newName == eflName && el.UseCollisionDetection)
+./Script/Component/XffectComponent.cs:490:            if (el.gameObject.newName == eflName && el.GravityAffectorEnable)
+./Script/Component/XffectComponent.cs:500:            if (el.gameObject.newName == eflName)

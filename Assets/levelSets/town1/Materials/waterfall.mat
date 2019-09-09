@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: waterfall
+  m_Shader: {fileID: 4800000, guid: 80068083bb4274cacaa3b2d4e4d69923, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: fa2b095872c5b429e84533f952ecfb28, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LightMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskMap
+        second:
+          m_Texture: {fileID: 2800000, guid: cfc8e8e08c6804f53902804cec64e32e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex1
+        second:
+          m_Texture: {fileID: 2800000, guid: 4a073fdfcd1c8425eb1275deca9cb8c1, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MaskMap1
+        second:
+          m_Texture: {fileID: 2800000, guid: cfc8e8e08c6804f53902804cec64e32e, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _CameraSize
+        second: 10
+      data:
+        first:
+          name: _UVAnimX1
+        second: 0
+      data:
+        first:
+          name: _UVAnimY1
+        second: .200000003
+      data:
+        first:
+          name: _UVAnimX
+        second: 0
+      data:
+        first:
+          name: _UVAnimY
+        second: .400000006
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .588235021, g: .588235021, b: .588235021, a: 1}
+      data:
+        first:
+          name: _CamPos
+        second: {r: 0, g: 0, b: 0, a: 0}

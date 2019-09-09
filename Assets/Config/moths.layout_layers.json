@@ -1,0 +1,432 @@
+[
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "ORIGIN": "Center Left", 
+                "NAME": "Particle27_clone27", 
+                "VISIBLE": true, 
+                "FRAMES WIDE": "2", 
+                "SEGMENTS": "20", 
+                "RENDER STYLE": "Additive", 
+                "TEXTURE": "media/particles/textures/sequence/fly_1x2_additive.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "PARENTID": "-1", 
+                "SORT INDEX": "1", 
+                "NO CULLING": true, 
+                "ID": "7422868773425123806"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "NAME": "Scale28_clone28", 
+                                "PARENTID": "7422868773425123806", 
+                                "X": "2,0,0,0.2,1,0.8,1,1,0", 
+                                "FIXED": true, 
+                                "ID": "7422868777720091102", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Gravity Well", 
+                                "ENABLE": false, 
+                                "NAME": "Gravity Well30_clone30", 
+                                "PARENTID": "7422868773425123806", 
+                                "GRAVITY": 0.5, 
+                                "ID": "7422868782015058398", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Rotate", 
+                                "NAME": "Texture Rotate31_clone31", 
+                                "PARENTID": "7422868773425123806", 
+                                "ROTATION SPEED": "1,-150,150", 
+                                "STARTING ROTATION": "1,0,360", 
+                                "USE OWN ROTATION": true, 
+                                "ID": "7422868786310025694", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Animation", 
+                                "ANIMATION SPEED": "0,20", 
+                                "NAME": "Texture Animation32_clone32", 
+                                "PARENTID": "7422868773425123806", 
+                                "ID": "7422868790604992990", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 3.0, 
+                                "NAME": "Vortext33_clone33", 
+                                "DIRECTIONZ": 1.0, 
+                                "RATE": "0,-1", 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Vortext", 
+                                "DIRECTIONY": 1.0, 
+                                "DIRECTIONX": 1.0, 
+                                "PARENTID": "7422868773425123806", 
+                                "ID": "7422868794899960286"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 3.0, 
+                                "ANGLE": "1,90,90", 
+                                "NAME": "Emitter34_clone34", 
+                                "TYPE OF EMITTER": "SphereSurface", 
+                                "DEPTH_": 2.0, 
+                                "KEEP LOCAL": true, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "HEIGHT_": 2.0, 
+                                "RADIUS": 0.5, 
+                                "SCALE ON LAUNCH": "1,0.025,0.05", 
+                                "PARENTID": "7422868773425123806", 
+                                "EMIT RATE": "1,0,4", 
+                                "VELOCITY": "1,0.05,0.1", 
+                                "PARTICLE LIFE": "1,4,6", 
+                                "ID": "7422868799194927582", 
+                                "WIDTH_": 2.0
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color35_clone35", 
+                                "PARENTID": "7422868773425123806", 
+                                "COLOR OVER TIME": "0,0,0,0,0,0.1,0.776471,0.717647,0.576471,1,0.9,0.776471,0.717647,0.576471,1,1,0,0,0,0", 
+                                "ID": "7422868803489894878", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Sine Force", 
+                                "NAME": "Sine Force36_clone36", 
+                                "PARENTID": "7422868773425123806", 
+                                "MIN": 5.0, 
+                                "FORCESX": -0.3, 
+                                "FORCESZ": 0.2, 
+                                "ID": "7422868807784862174", 
+                                "FORCESY": -0.1, 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }, 
+    {
+        "stackName": "BASEOBJECT", 
+        "children": [
+            {
+                "POSITIONZ": 0.0, 
+                "ORIGIN": "Center Left", 
+                "POSITIONX": -0.0, 
+                "POSITIONY": 0.0, 
+                "NAME": "moths", 
+                "VISIBLE": true, 
+                "FRAMES WIDE": "2", 
+                "SEGMENTS": "20", 
+                "RENDER STYLE": "Additive", 
+                "TEXTURE": "media/particles/textures/sequence/fly_1x2_additive.dds", 
+                "children": [], 
+                "stackName": "PROPERTIES", 
+                "DESCRIPTOR": "Particle", 
+                "PARENTID": "-1", 
+                "SORT INDEX": "1", 
+                "NO CULLING": true, 
+                "ID": "7422868812079829470"
+            }, 
+            {
+                "stackName": "CHILDREN", 
+                "children": [
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 3.0, 
+                                "NAME": "Gravity Well24", 
+                                "GRAVITY": 0.5, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Gravity Well", 
+                                "ENABLE": false, 
+                                "PARENTID": "7422868812079829470", 
+                                "ID": "7422868816374796766"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Sine Force", 
+                                "NAME": "Sine Force23", 
+                                "PARENTID": "7422868812079829470", 
+                                "MIN": 5.0, 
+                                "FORCESX": 0.2, 
+                                "FORCESZ": -0.2, 
+                                "ID": "7422868820669764062", 
+                                "FORCESY": 0.1, 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 3.0, 
+                                "ANGLE": "1,90,90", 
+                                "HEIGHT_": 2.0, 
+                                "RADIUS": 0.5, 
+                                "PARENTID": "7422868812079829470", 
+                                "EMIT RATE": "0,3", 
+                                "PARTICLE LIFE": "0,2", 
+                                "EMIT DURATION": "0,0", 
+                                "DEPTH_": 2.0, 
+                                "children": [], 
+                                "WIDTH_": 2.0, 
+                                "NAME": "init", 
+                                "TYPE OF EMITTER": "SphereSurface", 
+                                "KEEP LOCAL": true, 
+                                "ID": "7422868824964731358", 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "SCALE ON LAUNCH": "0,0.025", 
+                                "VELOCITY": "1,0.05,0.1", 
+                                "NUM LOOPS": "1"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 3.0, 
+                                "ANGLE": "1,90,90", 
+                                "NAME": "Emitter2", 
+                                "TYPE OF EMITTER": "SphereSurface", 
+                                "DEPTH_": 2.0, 
+                                "KEEP LOCAL": true, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Emitter", 
+                                "HEIGHT_": 2.0, 
+                                "RADIUS": 0.5, 
+                                "SCALE ON LAUNCH": "1,0.025,0.05", 
+                                "PARENTID": "7422868812079829470", 
+                                "EMIT RATE": "1,0,4", 
+                                "VELOCITY": "1,0.05,0.1", 
+                                "PARTICLE LIFE": "1,4,6", 
+                                "ID": "7422868829259698654", 
+                                "WIDTH_": 2.0
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Color", 
+                                "NAME": "Color5", 
+                                "PARENTID": "7422868812079829470", 
+                                "COLOR OVER TIME": "0,0,0,0,0,0.1,0.776471,0.717647,0.576471,1,0.9,0.776471,0.717647,0.576471,1,1,0,0,0,0", 
+                                "ID": "7422868833554665950", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Rotate", 
+                                "NAME": "Texture Rotate3", 
+                                "PARENTID": "7422868812079829470", 
+                                "ROTATION SPEED": "1,-150,150", 
+                                "STARTING ROTATION": "1,0,360", 
+                                "USE OWN ROTATION": true, 
+                                "ID": "7422868837849633246", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "POSITIONZ": 0.0, 
+                                "POSITIONX": 0.0, 
+                                "POSITIONY": 3.0, 
+                                "NAME": "Vortext4", 
+                                "DIRECTIONZ": 1.0, 
+                                "children": [], 
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Vortext", 
+                                "DIRECTIONY": 1.0, 
+                                "DIRECTIONX": 1.0, 
+                                "PARENTID": "7422868812079829470", 
+                                "ID": "7422868842144600542"
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Scale", 
+                                "NAME": "Scale1", 
+                                "PARENTID": "7422868812079829470", 
+                                "X": "2,0,0,0.2,1,0.8,1,1,0", 
+                                "FIXED": true, 
+                                "ID": "7422868846439567838", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }, 
+                    {
+                        "stackName": "BASEOBJECT", 
+                        "children": [
+                            {
+                                "stackName": "PROPERTIES", 
+                                "DESCRIPTOR": "Texture Animation", 
+                                "ANIMATION SPEED": "0,20", 
+                                "NAME": "Texture Animation0", 
+                                "PARENTID": "7422868812079829470", 
+                                "ID": "7422868850734535134", 
+                                "children": []
+                            }, 
+                            {
+                                "stackName": "CHILDREN", 
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
